@@ -18,6 +18,8 @@
     <meta name="theme-color" content="#ffffff">
 
 	<?php wp_head(); ?>
+
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/styles.css">
 </head>
 <body>
     <div id="backdrop"></div>
