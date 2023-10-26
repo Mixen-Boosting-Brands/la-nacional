@@ -27,6 +27,8 @@
   position: relative;
 
   .slide {
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 50vh;
     position: relative;
@@ -60,18 +62,6 @@
         }
       }
     }
-  }
-
-  .slide-1 {
-    @include background('../images/slider-1.png', center, cover);
-  }
-
-  .slide-2 {
-    @include background('../images/slider-1.png', center, cover);
-  }
-
-  .slide-3 {
-    @include background('../images/slider-1.png', center, cover);
   }
 }
 
