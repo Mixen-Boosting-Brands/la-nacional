@@ -67,7 +67,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-sm-6 mb-4 my-sm-auto text-center text-sm-start">
-                    <a href="#">
+                    <a href="<?php echo esc_url( home_url() ); ?>">
                         <img
                             src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.png"
                             alt=""
