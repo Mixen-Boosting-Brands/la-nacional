@@ -121,7 +121,7 @@
 						<?php for ($i = 1; $i <= 3; $i++): if( have_rows('slide_' . $i) ): while( have_rows('slide_' . $i) ): the_row(); ?>
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <div class="slide slide-1">
+                                <div class="slide slide-<?php echo $i; ?>">
                                     <div class="overlay">
                                         <div>
                                             <h1
