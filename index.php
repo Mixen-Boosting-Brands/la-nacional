@@ -571,7 +571,7 @@
             </div>
             <div class="row text-center">
                 <div class="col-6 my-auto">
-                    <a href="#">
+                    <a href="<?php get_category_link( 2 ); ?>">
                         <img
                             src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-la-nacional.png"
                             alt=""
@@ -582,7 +582,7 @@
                     </a>
                 </div>
                 <div class="col-6 my-auto">
-                    <a href="#">
+                    <a href="<?php get_category_link( 3 ); ?>">
                         <img
                             src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-proti.png"
                             alt=""
