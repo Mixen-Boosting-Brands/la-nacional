@@ -118,7 +118,7 @@
                     <div class="swipers swiper-jumbotron">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
-						<?php for ($i = 1; $i <= 3; $i++): if( have_rows('slide_' . $i, 2) ): while( have_rows('slide_' . $i, 2) ): the_row(); ?>
+						<?php for($i = 1; $i <= 3; $i++): if( have_rows('slide_' . $i, 2) ): while( have_rows('slide_' . $i, 2) ): the_row(); ?>
                             <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="slide slide-<?php echo $i; ?>" style="background: url('<?php echo get_sub_field('imagen'); ?>');">
