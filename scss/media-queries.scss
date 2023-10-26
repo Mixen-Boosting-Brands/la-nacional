@@ -1,0 +1,102 @@
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+
+// Small devices (landscape phones, 576px and up)
+@include media-breakpoint-up(sm) {
+    .card {
+        .card-img-top {
+            min-height: 240px;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+    .menu {
+        .menu-contenido {
+            nav {
+                ul {
+                    li {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+
+    .card {
+        .card-img-top {
+            min-height: 210px;
+        }
+    }
+
+    .descanso-2 { 
+        .overlay {
+            @include background('../images/bg-descanso-2.png', center, cover);
+            background-color: $bg-primary;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+    .fondo-azul,
+    .fondo-blanco {
+        font-size: 1rem;
+    }
+
+    .card {
+        .card-img-top {
+            min-height: 216px;
+        }
+    }
+
+    .descanso-2 {
+        .overlay {
+            h1 {
+                font-size: 3rem;
+                letter-spacing: -2px;
+                line-height: 3rem;
+    
+                strong {
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+    .card {
+        .card-img-top {
+            min-height: 241px;
+        }
+    }
+
+    #nosotros {
+        .fondo-azul {
+            padding: 60px;
+            position: absolute;
+            left: -150px;
+            width: 124%;
+            @include absolute-center-y;
+        }
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@include media-breakpoint-up(xxl) {
+    .card {
+        .card-img-top {
+            min-height: 280px;
+        }
+    }
+
+    .descanso-2 {
+        padding: 0 100px;
+        
+        .overlay {
+            padding: 0 100px;
+        }
+    }
+}

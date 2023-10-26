@@ -1,0 +1,137 @@
+.swipers {
+  .swiper-pagination {
+    .swiper-pagination-bullet-active {
+      background: $bg-white !important;
+    }
+
+    .swiper-pagination-bullet {
+      background: transparent;
+      border: 1px solid $light;
+      opacity: unset;
+      width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 14px));
+      height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 14px));
+    }
+  }
+
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 30px);
+  }
+}
+
+.swiper-jumbotron {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+
+  .slide {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    float: left;
+
+    .overlay {
+      background-color: rgba(0,0,0,0.1);
+      color: $text-white;
+      width: 100%;
+      height: 100%;
+      padding: 0 30px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: -2px;
+        line-height: 3rem;
+
+        strong {
+          font-size: 4rem;
+        }
+
+        span {
+          color: $text-primary;
+        }
+      }
+    }
+  }
+
+  .slide-1 {
+    @include background('../images/slider-1.png', center, cover);
+  }
+
+  .slide-2 {
+    @include background('../images/slider-1.png', center, cover);
+  }
+
+  .slide-3 {
+    @include background('../images/slider-1.png', center, cover);
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@include media-breakpoint-up(sm) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+  .swiper-jumbotron {
+    height: 60vh;
+
+    .slide {
+      height: 60vh;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+  .swiper-jumbotron {
+    height: 80vh;
+
+    .slide {
+      height: 80vh;
+
+      .overlay {
+        h1 {
+          font-size: 3rem;
+          letter-spacing: -2px;
+          line-height: 3rem;
+  
+          strong {
+            font-size: 5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+  .swiper-jumbotron {
+    height: 100vh;
+
+    .slide {
+      height: 100vh;
+    }
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@include media-breakpoint-up(xxl) {
+  .swiper-jumbotron {
+    .slide {
+      .overlay {
+        padding: 0 100px;
+      }
+    }
+  }
+}

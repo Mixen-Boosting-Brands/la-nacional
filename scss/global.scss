@@ -1,0 +1,398 @@
+// Global styles
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: $text-primary;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+
+header,
+section,
+footer {
+    width: 100%;
+    float: left;
+}
+
+.mh-100 {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    @include transition(ease, 0.3s);
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.py-60 {
+    padding: 60px 0;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.py-30 {
+    padding: 30px 0;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.whatsapp {
+    @include whatsapp-button;
+}
+
+header {
+    font-size: 2rem;
+    width: 100%;
+    height: auto;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    @include transition(ease, 0.2s);
+
+    #logo-navbar {
+        width: 140px;
+        @include transition(ease, 0.2s);
+    }
+
+    #mburger {
+        color: $text-white;
+
+        &:hover,
+        &:focus {
+            color: $text-primary;
+        }
+    }
+}
+
+.navbar-scroll {
+    background-color: $bg-primary;
+    padding: 10px 30px !important;
+    @include transition(ease, 0.3s);
+
+    #logo-navbar {
+        width: 100px !important;
+    }
+
+    #mburger {
+        color: $text-white !important;
+
+        &:hover,
+        &:focus {
+            color: $text-secondary !important;
+        }
+    }
+}
+
+#mapa {
+    line-height: 0;
+    
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.btn {
+    border-radius: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    &:hover,
+    &:focus {
+        background-color: $bg-secondary;
+        border-color: $bg-secondary;
+    }
+}
+
+.texto-azul {
+    color: $text-primary;
+}
+
+.texto-rojo {
+    color: $text-secondary;
+}
+
+.texto-blanco {
+    color: $text-white;
+}
+
+.fondo-azul,
+.fondo-blanco {
+    font-size: 0.8rem;
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 4px 18px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.fondo-azul {
+    background-color: $bg-primary;
+    color: $text-white;
+}
+
+.fondo-blanco {
+    background-color: $bg-white;
+    color: $text-primary;
+}
+
+.form-floating > .form-control:focus ~ label::after,
+.form-floating>.form-control:not(:placeholder-shown) ~ label::after,
+.form-floating>.form-control-plaintext ~ label::after,
+.form-floating>.form-select ~ label::after {
+    background-color: transparent;
+}
+
+.form-control {
+    border: 1px solid $primary;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    position: relative;
+
+    .badge {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    
+    .card-img-top {
+        background-color: #E0E0E0;
+        border-radius: 0;
+        min-height: 300px;
+        padding: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-body {
+        .card-text {
+            font-weight: bold;
+        }
+    }
+}
+
+ /* Para editar estilos del carrusel de esta sección, favor de ver archivo carousels.scss */
+#jumbotron {   
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+#nosotros {
+    .fondo-azul {
+        font-weight: 300;
+        margin-bottom: 0;
+        padding: 30px;
+        text-transform: none;
+    }
+}
+
+.descanso-1 {
+    height: 60vh;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+
+    .overlay {
+        background: rgba(0, 0, 0, 0.65);
+        color: $text-white;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            @include font-size(3rem);
+            font-weight: 300;
+        }
+    }
+}
+
+#esto-es-la-nacional {
+    .video-container {
+        @include background('../images/bg-video-container.jpg', center, cover);
+        width: 100%;
+        height: 60vh;
+        overflow: hidden;
+        position: relative;
+        @include absolute-center-x;
+
+        .object-fit-contain {
+            object-fit: cover !important;
+        }
+
+        video {
+            width: 100%;
+            height: 60vh;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.65);
+            color: $text-white;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                @include font-size(3rem);
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+#tradicion-chihuahuense {
+    @include background('../images/bg-tradicion-chihuahuense.jpg', center, cover);
+
+    .overlay {
+        background: rgba(8, 35, 57, 0.8);
+    }
+}
+
+.descanso-2 {
+    width: 100%;
+    height: 60vh;
+    padding: 0 30px;
+    position: relative;
+    float: left;
+
+    .sello {
+        max-width: 100px;
+        position: relative;
+        top: -15px;
+        z-index: 2;
+    }
+
+    .overlay {
+        @include background('../images/bg-descanso-2.png', left, cover);
+        background-color: $bg-primary;
+        color: $text-white;
+        width: 100%;
+        height: 100%;
+        padding: 0 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 300;
+            letter-spacing: -2px;
+            line-height: 3rem;
+
+            strong {
+                font-size: 4rem;
+            }
+
+            span {
+                color: $text-white;
+            }
+        }
+    }
+}
+
+footer {
+    @include background('../images/bg-footer.jpg', center, cover);
+    color: $text-white;
+    position: relative;
+
+    address,
+    p,
+    a {
+        position: relative;
+        z-index: 1;
+    }
+
+    a {
+        color: $text-white;
+
+        &:hover,
+        &:focus {
+            color: $text-secondary;
+        }
+    }
+
+    .social {
+        a {
+            background-color: $bg-white;
+            border-radius: 50px;
+            color: $text-primary;
+            font-size: 1.4rem;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover,
+            &:focus {
+                background-color: $bg-secondary;
+                color: $text-primary;
+            }
+        }
+    }
+
+    .overlay {
+        background-color: rgba(12, 53, 86, 0.8);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
