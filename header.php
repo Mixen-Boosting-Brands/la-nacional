@@ -110,7 +110,6 @@
         </div>
     </header>
 
-	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	<section id="jumbotron">
         <div class="container-fluid">
             <div class="row">
@@ -119,7 +118,7 @@
                     <div class="swipers swiper-jumbotron">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
-						<?php if( have_rows('slide_1') ): while( have_rows('slide_1') ): the_row(); ?>
+						<?php if( have_rows('slide_1', 2) ): while( have_rows('slide_1', 2) ): the_row(); ?>
                             <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="slide slide-1">
@@ -152,4 +151,3 @@
             </div>
         </div>
     </section>
-	<?php endwhile; endif; ?>
