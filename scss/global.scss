@@ -26,6 +26,11 @@ footer {
 a {
     text-decoration: none;
     @include transition(ease, 0.3s);
+
+    &:hover,
+    &:focus {
+        color: $text-secondary;
+    }
 }
 
 .py-100 {
