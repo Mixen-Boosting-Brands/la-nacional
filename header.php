@@ -23,7 +23,6 @@
     <div id="backdrop"></div>
     <div class="menu">
         <a id="cerrar-menu" href="javascript:void(0)">
-            <!-- <i class="fas fa-times"></i> -->
             <i class="fa-solid fa-xmark"></i>
         </a>
         <div class="menu-contenido">
