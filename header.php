@@ -34,22 +34,22 @@
             <nav class="mt-5">
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a id="btn-nav-1" href="/">
+                        <a id="btn-nav-1" href="<?php echo esc_url( home_url() ); ?>">
                             <span>01</span> Inicio
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a id="btn-nav-2" href="#nosotros">
+                        <a id="btn-nav-2" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>#nosotros<?php else: ?>#nosotros<?php endif; ?>">
                             <span>02</span> Nosotros
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a id="btn-nav-3" href="#experiencia-nacional">
+                        <a id="btn-nav-3" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>#experiencia-nacional<?php else: ?>#experiencia-nacional<?php endif; ?>">
                             <span>03</span> Experiencia Nacional
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a id="btn-nav-4" href="#nuestros-productos">
+                        <a id="btn-nav-4" href="#<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>#nuestros-productos<?php else: ?>#nuestros-productos<?php endif; ?>">
                             <span>04</span> Productos
                         </a>
                     </li>
