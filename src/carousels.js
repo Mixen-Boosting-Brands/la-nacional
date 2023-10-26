@@ -14,6 +14,7 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
     // Optional parameters
     direction: 'horizontal',
     loop: false,
+    mousewheel: true,
 
     // Autoplay
     autoplay: {
