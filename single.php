@@ -18,7 +18,7 @@
 				<div class="col">
 					<?php the_content(); // Dynamic Content. ?>
 
-					<?php the_category( ', ' ); // Separated by commas. ?> <?php the_tags( __( 'Etiquetas: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
+					<?php the_category( __( 'Categoría: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?> <?php the_tags( __( 'Etiquetas: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
 
 					<?php edit_post_link(); // Always handy to have Edit Post Links available. ?>
 				</div>
