@@ -118,6 +118,8 @@
                     <div class="swipers swiper-jumbotron">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
+					<?php for ($i = 1; $i <= 3; $i++): ?>
+						<?php if( have_rows('slide_' . $i) ): while( have_rows('slide_' . $i) ): the_row(); ?>
                             <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="slide slide-1">
@@ -126,65 +128,23 @@
                                             <h1
                                                 data-aos="fade-right"
                                             >
-                                                <?php bloginfo( 'name' ); ?><br>
+                                                <?php the_sub_field('texto_renglon_1'); ?><br>
                                                 <strong>
-                                                    es <span>sabor.</span>
+													<?php the_sub_field('texto_renglon_2'); ?>
                                                 </strong>
                                             </h1>
                                             <p
                                                 class="fondo-azul"
                                                 data-aos="fade-left"
                                             >
-                                                Más de 40 años de tradición
+												<?php the_sub_field('texto_renglon_3'); ?>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="slide slide-2">
-                                    <div class="overlay">
-                                        <div>
-                                            <h1
-                                                data-aos="fade-right"
-                                            >
-                                                <?php bloginfo( 'name' ); ?><br>
-                                                <strong>
-                                                    es <span>sabor.</span>
-                                                </strong>
-                                            </h1>
-                                            <p
-                                                class="fondo-azul"
-                                                data-aos="fade-left"
-                                            >
-                                                Más de 40 años de tradición
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slide slide-3">
-                                    <div class="overlay">
-                                        <div>
-                                            <h1
-                                                data-aos="fade-right"
-                                            >
-                                                <?php bloginfo( 'name' ); ?><br>
-                                                <strong>
-                                                    es <span>sabor.</span>
-                                                </strong>
-                                            </h1>
-                                            <p
-                                                class="fondo-azul"
-                                                data-aos="fade-left"
-                                            >
-                                                Más de 40 años de tradición
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+						<?php endwhile; endif; ?>
+					<?php endfor; ?>
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
