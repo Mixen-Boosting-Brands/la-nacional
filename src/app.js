@@ -53,8 +53,6 @@ for( let i = 1; i < 6; i++ ) { // Cambiar por número de botones de navegación 
     document.getElementById(`btn-nav-${i}`).addEventListener("click", cerrarMenu, false);
 }
 
-document.getElementById("btn-contacto").addEventListener("click", cerrarMenu, false);
-
 function cerrarMenu() {
     $('.menu').removeClass('menu-abierto');
     $('#navbar').removeClass('opacity-0');
