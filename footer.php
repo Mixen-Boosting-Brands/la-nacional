@@ -83,7 +83,7 @@
                         data-aos="zoom-in"
                         data-aos-delay="1500"
                     >
-                        &copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Todos los derechos reservados. | <a href="#">Aviso de Privacidad</a>
+                        &copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Todos los derechos reservados. | <a href="<?php echo esc_url( get_page_link( 3 ) ); ?>">Aviso de Privacidad</a>
                     </p>
                 </div>
             </div>
