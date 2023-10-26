@@ -129,14 +129,14 @@
                                             >
                                                 <?php echo get_sub_field('texto_renglon_1'); ?><br>
                                                 <strong>
-													<?php echo get_sub_field('texto_renglon_2');; ?>
+													<?php echo get_sub_field('texto_renglon_2'); ?>
                                                 </strong>
                                             </h1>
                                             <p
                                                 class="fondo-azul"
                                                 data-aos="fade-left"
                                             >
-												<?php echo get_sub_field('texto_renglon_3');; ?>
+												<?php echo get_sub_field('texto_renglon_3'); ?>
                                             </p>
                                         </div>
                                     </div>
