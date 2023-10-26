@@ -44,12 +44,12 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a id="btn-nav-3" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>#experiencia-nacional<?php else: ?>#experiencia-nacional<?php endif; ?>">
+                        <a id="btn-nav-3" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>#esto-es-la-nacional<?php else: ?>#esto-es-la-nacional<?php endif; ?>">
                             <span>03</span> Experiencia Nacional
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a id="btn-nav-4" href="#<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>#nuestros-productos<?php else: ?>#nuestros-productos<?php endif; ?>">
+                        <a id="btn-nav-4" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?>#nuestros-productos<?php else: ?>#nuestros-productos<?php endif; ?>">
                             <span>04</span> Productos
                         </a>
                     </li>
