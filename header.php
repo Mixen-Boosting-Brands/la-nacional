@@ -118,6 +118,7 @@
                     <div class="swipers swiper-jumbotron">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
+						<?php if( have_rows('slide_1') ): while( have_rows('slide_1') ): the_row(); ?>
                             <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="slide slide-1">
@@ -141,6 +142,7 @@
                                     </div>
                                 </div>
                             </div>
+						<?php endwhile; endif; ?>
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
