@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section id="productos" class="category py-60">
+	<section id="productos-header" class="category py-60">
         <div class="container">
             <div class="row mb-4">
                 <div class="col text-center">
@@ -107,6 +107,389 @@
                             </button>
                         </div>
                     </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<section id="productos" class="py-60">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="tab-content py-4" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-todos" role="tabpanel" aria-labelledby="nav-todos-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                    >
+                                        <span class="badge text-bg-danger">-50%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Chihuahua 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="200"
+                                    >
+                                        <span class="badge text-bg-primary">-10%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Goudá 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="300"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Oaxaca 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="400"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Manchego 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-chihuahua" role="tabpanel" aria-labelledby="nav-chihuahua-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                    >
+                                        <span class="badge text-bg-danger">-50%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Chihuahua 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="200"
+                                    >
+                                        <span class="badge text-bg-primary">-10%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Chihuahua 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="300"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Chihuahua 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="400"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Chihuahua 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-gouda" role="tabpanel" aria-labelledby="nav-gouda-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                    >
+                                        <span class="badge text-bg-danger">-50%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Goudá 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="200"
+                                    >
+                                        <span class="badge text-bg-primary">-10%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Goudá 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="300"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Goudá 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="400"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Goudá 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-oaxaca" role="tabpanel" aria-labelledby="nav-oaxaca-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                    >
+                                        <span class="badge text-bg-danger">-50%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Oaxaca 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="200"
+                                    >
+                                        <span class="badge text-bg-primary">-10%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Oaxaca 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="300"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Oaxaca 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="400"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Oaxaca 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-manchego" role="tabpanel" aria-labelledby="nav-manchego-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                    >
+                                        <span class="badge text-bg-danger">-50%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Manchego 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="200"
+                                    >
+                                        <span class="badge text-bg-primary">-10%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Manchego 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="300"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Manchego 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="400"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Manchego 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-panela" role="tabpanel" aria-labelledby="nav-panela-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                    >
+                                        <span class="badge text-bg-danger">-50%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                          <p class="card-text">Panela 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="200"
+                                    >
+                                        <span class="badge text-bg-primary">-10%</span>
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Panela 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="300"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Panela 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                    <div
+                                        class="card"
+                                        data-aos="fade-up"
+                                        data-aos-delay="400"
+                                    >
+                                        <div class="card-img-top">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">Panela 227 g</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
