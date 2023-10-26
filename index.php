@@ -546,7 +546,7 @@
                 Your browser does not support the video tag.
             </video>
             <div class="overlay">
-                <h1>Esto es <?php bloginfo( 'name' ); ?></h1>
+                <!-- h1>Esto es <?php bloginfo( 'name' ); ?></h1 -->
             </div>
         </div>
     </section>
