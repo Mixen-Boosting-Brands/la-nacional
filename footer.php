@@ -1,34 +1,111 @@
-			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+	<footer class="py-100">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <address
+                        data-aos="fade-up"
+                    >
+                        Carretera Panamericana Km. 222<br>
+                        Ahumada, Chihuahua, México<br>
+                        C.P. 32800
+                    </address>
+                    <ul class="list-unstyled my-5">
+                        <li
+                            data-aos="fade-up"
+                            data-aos-delay="250"
+                        >
+                            <a href="tel:+526566820414">
+                                <i class="fa-solid fa-phone"></i> +52 (656) 682 0414
+                            </a>
+                        </li>
+                        <li
+                            data-aos="fade-up"
+                            data-aos-delay="500"
+                        >
+                            <a href="mailto:ventas@lanacional.me">
+                                <i class="fa-solid fa-envelope"></i> ventas@lanacional.me
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 text-end">
+                    <div class="row">
+                        <div class="col-5 col-sm-6 col-md-3 offset-md-5 col-lg-3 offset-lg-6 col-xl-2 offset-xl-7 col-xxl-2 offset-xxl-7 my-auto text-end">
+                            <p
+                                class="mb-0"
+                                data-aos="fade-up"
+                                data-aos-delay="750"
+                            >
+                                Síguenos
+                            </p>
+                        </div>
+                        <div class="col-7 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 my-auto">
+                            <ul class="social list-inline mb-0">
+                                <li
+                                    class="list-inline-item"
+                                    data-aos="fade-up"
+                                    data-aos-delay="1000"
+                                >
+                                    <a href="https://www.instagram.com/lacteoslanacional" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="list-inline-item"
+                                    data-aos="fade-up"
+                                    data-aos-delay="1250"
+                                >
+                                    <a href="https://www.facebook.com/lacteoslanacional" target="_blank">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-6 mb-4 my-sm-auto text-center text-sm-start">
+                    <a href="#">
+                        <img
+                            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.png"
+                            alt=""
+                            class="img-fluid"
+                            data-aos="zoom-in"
+                            data-aos-delay="1500"
+                        >
+                    </a>
+                </div>
+                <div class="col-sm-6 my-auto text-center text-sm-end">
+                    <p
+                        class="mb-0"
+                        data-aos="zoom-in"
+                        data-aos-delay="1500"
+                    >
+                        &copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Todos los derechos reservados. | <a href="#">Aviso de Privacidad</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-				<!-- copyright -->
-			    <?php
-				    printf( '<p class="copyright">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . '</p>',
-				    	date( 'Y'),
-				    	esc_html( get_bloginfo( 'name' ) ),
-				    	'//wordpress.org',
-				    	'//html5blank.com'
-					);
-				?>
-				<!-- /copyright -->
+    <!-- a href="https://wa.me/52614?text=Hola%20FOO%20BAR,%20necesito%20información." class="whatsapp" target="_blank">
+        <i class="fab fa-whatsapp whatsapp-icon"></i>
+    </a -->
 
-			</footer>
-			<!-- /footer -->
+	<?php wp_footer(); ?>
 
-		</div>
-		<!-- /wrapper -->
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/app.bundle.js"></script>
 
-		<?php wp_footer(); ?>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XRNLKGCQF1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
-		<!-- analytics -->
-		<script>
-		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
-		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
-		l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
-		ga('send', 'pageview');
-		</script>
-
-	</body>
+	gtag('config', 'G-XRNLKGCQF1');
+	</script>
+</body>
 </html>
