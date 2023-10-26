@@ -1,5 +1,15 @@
 <?php get_header(); ?>
 
+	<section class="py-60">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1><?php the_title(); ?></h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<main role="main" aria-label="Content">
 	<!-- section -->
 	<section>
