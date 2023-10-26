@@ -1,45 +1,29 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
-		<!-- section -->
-		<section>
+	<section class="py-60">
+		<div class="container">
+			<?php if ( has_post_thumbnail() ) : // Check if Thumbnail exists. ?>
+			<div class="row">
+				<div class="col">
+					<?php the_post_thumbnail(array('class' => 'img-fluid')); ?>
+				</div>
+			</div>
+			<?php endif; ?>
+			<div class="row">
+				<div class="col">
+					<h1><?php the_title(); ?></h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<?php the_content(); // Dynamic Content. ?>
 
-			<h1><?php the_title(); ?></h1>
+					<?php the_category( __( 'Categoría: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?> <?php the_tags( __( 'Etiquetas: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
 
-		<?php if ( have_posts()) : while ( have_posts() ) : the_post(); ?>
-
-			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-				<?php the_content(); ?>
-
-				<?php comments_template( '', true ); // Remove if you don't want comments. ?>
-
-				<br class="clear">
-
-				<?php edit_post_link(); ?>
-
-			</article>
-			<!-- /article -->
-
-		<?php endwhile; ?>
-
-		<?php else : ?>
-
-			<!-- article -->
-			<article>
-
-				<h2><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
-
-			</article>
-			<!-- /article -->
-
-		<?php endif; ?>
-
-		</section>
-		<!-- /section -->
-	</main>
-
-<?php get_sidebar(); ?>
+					<?php edit_post_link(); // Always handy to have Edit Post Links available. ?>
+				</div>
+			</div>
+		</div>
+	</section>
 
 <?php get_footer(); ?>
