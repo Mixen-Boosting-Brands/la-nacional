@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php
+	/* Template Name: Home */
+	get_header();
+?>
 
 	<section class="category py-60">
         <div class="container">
