@@ -118,7 +118,7 @@
                     <div class="swipers swiper-jumbotron">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
-						<?php for ($i = 1; $i <= 3; $i++): if( have_rows('slide_' . $i) ): while( have_rows('slide_' . $i) ): the_row(); ?>
+						<?php if( have_rows('slide_1') ): while( have_rows('slide_1') ): the_row(); ?>
                             <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="slide slide-<?php echo $i; ?>">
@@ -127,22 +127,22 @@
                                             <h1
                                                 data-aos="fade-right"
                                             >
-                                                <?php the_sub_field('texto_renglon_1'); ?><br>
+                                                <?php echo get_sub_field('texto_renglon_1'); ?><br>
                                                 <strong>
-													<?php the_sub_field('texto_renglon_2'); ?>
+													<?php echo get_sub_field('texto_renglon_2');; ?>
                                                 </strong>
                                             </h1>
                                             <p
                                                 class="fondo-azul"
                                                 data-aos="fade-left"
                                             >
-												<?php the_sub_field('texto_renglon_3'); ?>
+												<?php echo get_sub_field('texto_renglon_3');; ?>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-						<?php endwhile; endif; endfor; ?>
+						<?php endwhile; endif; ?>
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
