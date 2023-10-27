@@ -70,7 +70,17 @@
                     <div class="tab-content py-4" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-todos" role="tabpanel" aria-labelledby="nav-todos-tab" tabindex="0">
                             <div class="row">
-                            <?php if (have_posts()): $i = 1; while (have_posts()) : the_post(); ?>
+                            <?php
+                                // Argumentos
+                                $args = array(
+                                    'post_type' => 'post',
+                                    'posts_per_page' => -1
+                                );
+
+                                // Custom query
+                                $custom_query = new WP_Query($args);
+                            ?>
+                            <?php if ($custom_query->have_posts()): $i = 1; while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
                                 <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                                     <div
                                         class="card"
@@ -100,7 +110,7 @@
                                    <p>Lo sentimos, no hay nada para mostrar aquí todavía.</p>
                                 </div>
                             <?php endif; ?>
-                            <?php wp_reset_query(); ?>
+                            <?php wp_reset_postdata(); ?>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-chihuahua" role="tabpanel" aria-labelledby="nav-chihuahua-tab" tabindex="0">
