@@ -70,64 +70,28 @@
                     <div class="tab-content py-4" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-todos" role="tabpanel" aria-labelledby="nav-todos-tab" tabindex="0">
                             <div class="row">
+                            <?php if (have_posts()): $i = 1; while (have_posts()) : the_post(); ?>
                                 <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                                     <div
                                         class="card"
                                         data-aos="fade-up"
-                                        data-aos-delay="100"
+                                        data-aos-delay="<?php echo $i; ?>00"
                                     >
                                         <span class="badge text-bg-danger">-50%</span>
                                         <div class="card-img-top">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-1.png" class="img-fluid" alt="">
+                                            <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
                                         </div>
                                         <div class="card-body">
-                                            <p class="card-text">Chihuahua 227 g</p>
+                                            <p class="card-text"><?php the_title(); ?></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <div
-                                        class="card"
-                                        data-aos="fade-up"
-                                        data-aos-delay="200"
-                                    >
-                                        <span class="badge text-bg-primary">-10%</span>
-                                        <div class="card-img-top">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-2.png" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="card-body">
-                                            <p class="card-text">Goudá 227 g</p>
-                                        </div>
-                                    </div>
+                            <?php $i++; endwhile; ?>
+                            <?php else : ?>
+                                <div class="col text-center">
+                                   <p>Lo sentimos, no hay nada para mostrar aquí todavía.</p>
                                 </div>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <div
-                                        class="card"
-                                        data-aos="fade-up"
-                                        data-aos-delay="300"
-                                    >
-                                        <div class="card-img-top">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-3.png" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="card-body">
-                                            <p class="card-text">Oaxaca 227 g</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <div
-                                        class="card"
-                                        data-aos="fade-up"
-                                        data-aos-delay="400"
-                                    >
-                                        <div class="card-img-top">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-producto-4.png" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="card-body">
-                                            <p class="card-text">Manchego 227 g</p>
-                                        </div>
-                                    </div>
-                                </div>
+                            <?php endif; ?>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-chihuahua" role="tabpanel" aria-labelledby="nav-chihuahua-tab" tabindex="0">
