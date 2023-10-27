@@ -113,11 +113,16 @@
                             <?php wp_reset_postdata(); ?>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="nav-chihuahua" role="tabpanel" aria-labelledby="nav-chihuahua-tab" tabindex="0">
+                <?php
+                    $tags = get_tags();
+                    if ( $tags ) :
+                ?>
+                    <?php $i = 3; foreach ( $tags as $tag ): ?>
+                        <div class="tab-pane fade" id="nav-<?php echo esc_attr( $tag->slug ); ?>" role="tabpanel" aria-labelledby="nav-<?php echo esc_attr( $tag->slug ); ?>-tab" tabindex="0">
                             <div class="row">
                             <?php
                                 // Nombre de la etiqueta por la cual filtrar
-                                $tag_name = 'chihuahua';
+                                $tag_name = $tag->slug;
 
                                 // Argumentos
                                 $args = array(
@@ -162,202 +167,8 @@
                             <?php wp_reset_postdata(); ?>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="nav-gouda" role="tabpanel" aria-labelledby="nav-gouda-tab" tabindex="0">
-                            <div class="row">
-                            <?php
-                                // Nombre de la etiqueta por la cual filtrar
-                                $tag_name = 'gouda';
-
-                                // Argumentos
-                                $args = array(
-                                    'post_type' => 'post',
-                                    'posts_per_page' => -1,
-                                    'tag' => $tag_name
-                                );
-
-                                // Custom query
-                                $custom_query = new WP_Query($args);
-                            ?>
-                            <?php if ($custom_query->have_posts()): $i = 1; while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <div
-                                        class="card"
-                                        data-aos="fade-up"
-                                        data-aos-delay="<?php echo $i; ?>00"
-                                    >
-                                    <?php if( have_rows('detalles_del_producto') ): while( have_rows('detalles_del_producto') ): the_row(); ?>
-                                        <?php if( get_sub_field('indicador_de_descuento') ): ?>
-                                        <span class="badge <?php if( get_sub_field('color_del_indicador_de_descuento') === 'Azul' ): ?>text-bg-primary<?php elseif( get_sub_field('color_del_indicador_de_descuento') === 'Rojo' ): ?>text-bg-danger<?php endif; ?>">
-                                            <?php echo get_sub_field('descuento'); ?>
-                                        </span>
-                                        <?php endif; ?>
-                                    <?php endwhile; endif; ?>
-                                        <div class="card-img-top">
-                                            <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
-                                        </div>
-                                        <div class="card-body">
-                                            <p class="card-text">
-                                                <?php the_title(); ?>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php $i++; endwhile; ?>
-                            <?php else : ?>
-                                <div class="col text-center">
-                                   <p>Lo sentimos, no hay nada para mostrar aquí todavía.</p>
-                                </div>
-                            <?php endif; ?>
-                            <?php wp_reset_postdata(); ?>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-oaxaca" role="tabpanel" aria-labelledby="nav-oaxaca-tab" tabindex="0">
-                            <div class="row">
-                            <?php
-                                // Nombre de la etiqueta por la cual filtrar
-                                $tag_name = 'oaxaca';
-
-                                // Argumentos
-                                $args = array(
-                                    'post_type' => 'post',
-                                    'posts_per_page' => -1,
-                                    'tag' => $tag_name
-                                );
-
-                                // Custom query
-                                $custom_query = new WP_Query($args);
-                            ?>
-                            <?php if ($custom_query->have_posts()): $i = 1; while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <div
-                                        class="card"
-                                        data-aos="fade-up"
-                                        data-aos-delay="<?php echo $i; ?>00"
-                                    >
-                                    <?php if( have_rows('detalles_del_producto') ): while( have_rows('detalles_del_producto') ): the_row(); ?>
-                                        <?php if( get_sub_field('indicador_de_descuento') ): ?>
-                                        <span class="badge <?php if( get_sub_field('color_del_indicador_de_descuento') === 'Azul' ): ?>text-bg-primary<?php elseif( get_sub_field('color_del_indicador_de_descuento') === 'Rojo' ): ?>text-bg-danger<?php endif; ?>">
-                                            <?php echo get_sub_field('descuento'); ?>
-                                        </span>
-                                        <?php endif; ?>
-                                    <?php endwhile; endif; ?>
-                                        <div class="card-img-top">
-                                            <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
-                                        </div>
-                                        <div class="card-body">
-                                            <p class="card-text">
-                                                <?php the_title(); ?>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php $i++; endwhile; ?>
-                            <?php else : ?>
-                                <div class="col text-center">
-                                   <p>Lo sentimos, no hay nada para mostrar aquí todavía.</p>
-                                </div>
-                            <?php endif; ?>
-                            <?php wp_reset_postdata(); ?>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-manchego" role="tabpanel" aria-labelledby="nav-manchego-tab" tabindex="0">
-                            <div class="row">
-                            <?php
-                                // Nombre de la etiqueta por la cual filtrar
-                                $tag_name = 'manchego';
-
-                                // Argumentos
-                                $args = array(
-                                    'post_type' => 'post',
-                                    'posts_per_page' => -1,
-                                    'tag' => $tag_name
-                                );
-
-                                // Custom query
-                                $custom_query = new WP_Query($args);
-                            ?>
-                            <?php if ($custom_query->have_posts()): $i = 1; while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <div
-                                        class="card"
-                                        data-aos="fade-up"
-                                        data-aos-delay="<?php echo $i; ?>00"
-                                    >
-                                    <?php if( have_rows('detalles_del_producto') ): while( have_rows('detalles_del_producto') ): the_row(); ?>
-                                        <?php if( get_sub_field('indicador_de_descuento') ): ?>
-                                        <span class="badge <?php if( get_sub_field('color_del_indicador_de_descuento') === 'Azul' ): ?>text-bg-primary<?php elseif( get_sub_field('color_del_indicador_de_descuento') === 'Rojo' ): ?>text-bg-danger<?php endif; ?>">
-                                            <?php echo get_sub_field('descuento'); ?>
-                                        </span>
-                                        <?php endif; ?>
-                                    <?php endwhile; endif; ?>
-                                        <div class="card-img-top">
-                                            <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
-                                        </div>
-                                        <div class="card-body">
-                                            <p class="card-text">
-                                                <?php the_title(); ?>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php $i++; endwhile; ?>
-                            <?php else : ?>
-                                <div class="col text-center">
-                                   <p>Lo sentimos, no hay nada para mostrar aquí todavía.</p>
-                                </div>
-                            <?php endif; ?>
-                            <?php wp_reset_postdata(); ?>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-panela" role="tabpanel" aria-labelledby="nav-panela-tab" tabindex="0">
-                            <div class="row">
-                            <?php
-                                // Nombre de la etiqueta por la cual filtrar
-                                $tag_name = 'panela';
-
-                                // Argumentos
-                                $args = array(
-                                    'post_type' => 'post',
-                                    'posts_per_page' => -1,
-                                    'tag' => $tag_name
-                                );
-
-                                // Custom query
-                                $custom_query = new WP_Query($args);
-                            ?>
-                            <?php if ($custom_query->have_posts()): $i = 1; while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <div
-                                        class="card"
-                                        data-aos="fade-up"
-                                        data-aos-delay="<?php echo $i; ?>00"
-                                    >
-                                    <?php if( have_rows('detalles_del_producto') ): while( have_rows('detalles_del_producto') ): the_row(); ?>
-                                        <?php if( get_sub_field('indicador_de_descuento') ): ?>
-                                        <span class="badge <?php if( get_sub_field('color_del_indicador_de_descuento') === 'Azul' ): ?>text-bg-primary<?php elseif( get_sub_field('color_del_indicador_de_descuento') === 'Rojo' ): ?>text-bg-danger<?php endif; ?>">
-                                            <?php echo get_sub_field('descuento'); ?>
-                                        </span>
-                                        <?php endif; ?>
-                                    <?php endwhile; endif; ?>
-                                        <div class="card-img-top">
-                                            <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
-                                        </div>
-                                        <div class="card-body">
-                                            <p class="card-text">
-                                                <?php the_title(); ?>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php $i++; endwhile; ?>
-                            <?php else : ?>
-                                <div class="col text-center">
-                                   <p>Lo sentimos, no hay nada para mostrar aquí todavía.</p>
-                                </div>
-                            <?php endif; ?>
-                            <?php wp_reset_postdata(); ?>
-                            </div>
-                        </div>
+                    <?php $i++; endforeach; ?>
+                <?php endif; ?>
                     </div>
                 </div>
             </div>
