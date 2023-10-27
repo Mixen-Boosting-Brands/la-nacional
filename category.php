@@ -77,7 +77,13 @@
                                         data-aos="fade-up"
                                         data-aos-delay="<?php echo $i; ?>00"
                                     >
-                                        <span class="badge text-bg-danger">-50%</span>
+                                    <?php if( have_rows('detalles_del_producto') ): while( have_rows('detalles_del_producto') ): the_row(); ?>
+                                        <?php if( get_sub_field('indicador_de_descuento') ): ?>
+                                        <span class="badge <?php if( get_sub_field('color_del_indicador_de_descuento') === 'Azul' ): ?>text-bg-primary<?php elseif( get_sub_field('color_del_indicador_de_descuento') === 'Rojo' ): ?>text-bg-danger"<?php endif; ?>>
+                                            <?php echo get_sub_field('descuento'); ?>
+                                        </span>
+                                        <?php endif; ?>
+                                    <?php endwhile; endif; ?>
                                         <div class="card-img-top">
                                             <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
                                         </div>
