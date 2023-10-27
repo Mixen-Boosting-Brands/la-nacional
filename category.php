@@ -79,7 +79,7 @@
                                     >
                                     <?php if( have_rows('detalles_del_producto') ): while( have_rows('detalles_del_producto') ): the_row(); ?>
                                         <?php if( get_sub_field('indicador_de_descuento') ): ?>
-                                        <span class="badge <?php if( get_sub_field('color_del_indicador_de_descuento') === 'Azul' ): ?>text-bg-primary<?php elseif( get_sub_field('color_del_indicador_de_descuento') === 'Rojo' ): ?>text-bg-danger"<?php endif; ?>>
+                                        <span class="badge <?php if( get_sub_field('color_del_indicador_de_descuento') === 'Azul' ): ?>text-bg-primary<?php elseif( get_sub_field('color_del_indicador_de_descuento') === 'Rojo' ): ?>text-bg-danger<?php endif; ?>">
                                             <?php echo get_sub_field('descuento'); ?>
                                         </span>
                                         <?php endif; ?>
@@ -88,7 +88,9 @@
                                             <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
                                         </div>
                                         <div class="card-body">
-                                            <p class="card-text"><?php the_title(); ?></p>
+                                            <p class="card-text">
+                                                <?php the_title(); ?>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
