@@ -46,76 +46,28 @@
                             >
                                 Todos los productos
                             </button>
-                            <button
-                                class="nav-link"
-                                id="nav-chihuahua-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-chihuahua"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-chihuahua"
-                                aria-selected="false"
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                Chihuahua
-                            </button>
-                            <button
-                                class="nav-link"
-                                id="nav-gouda-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-gouda"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-gouda"
-                                aria-selected="false"
-                                data-aos="fade-up"
-                                data-aos-delay="400"
-                            >
-                                Goudá
-                            </button>
-                            <button
-                                class="nav-link"
-                                id="nav-oaxaca-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-oaxaca"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-oaxaca"
-                                aria-selected="false"
-                                data-aos="fade-up"
-                                data-aos-delay="500"
-                            >
-                                Oaxaca
-                            </button>
-                            <button
-                                class="nav-link"
-                                id="nav-manchego-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-manchego"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-manchego"
-                                aria-selected="false"
-                                data-aos="fade-up"
-                                data-aos-delay="600"
-                            >
-                                Manchego
-                            </button>
-                            <button
-                                class="nav-link"
-                                id="nav-panela-tab"
-                                data-bs-toggle="tab"
-                                data-bs-target="#nav-panela"
-                                type="button"
-                                role="tab"
-                                aria-controls="nav-panela"
-                                aria-selected="false"
-                                data-aos="fade-up"
-                                data-aos-delay="700"
-                            >
-                                Panela
-                            </button>
+							<?php
+								$tags = get_tags();
+								if ( $tags ) :
+							?>
+								<?php $i = 3; foreach ( $tags as $tag ): ?>
+									<button
+										class="nav-link"
+										id="nav-<?php echo esc_attr( $tag->slug ); ?>-tab"
+										data-bs-toggle="tab"
+										data-bs-target="#nav-<?php echo esc_attr( $tag->slug ); ?>"
+										type="button"
+										role="tab"
+										aria-controls="nav-<?php echo esc_attr( $tag->slug ); ?>"
+										aria-selected="false"
+										data-aos="fade-up"
+										data-aos-delay="<?php echo $i ?>00"
+									>
+										<?php echo esc_attr( $tag->name ); ?>
+									</button>
+									<li><a href="<?php echo esc_url( get_tag_link( $tag->term_id ) ); ?>" title="<?php echo esc_attr( $tag->name ); ?>"><?php echo esc_html( $tag->name ); ?></a></li>
+								<?php $i++; endforeach; ?>
+							<?php endif; ?>
                         </div>
                     </nav>
                 </div>
