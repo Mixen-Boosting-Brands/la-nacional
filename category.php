@@ -191,11 +191,12 @@
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
-                        Elige el producto de tu preferencia
+                        Explora nuestros demás productos
                     </p>
                 </div>
             </div>
             <div class="row text-center">
+            <?php if( is_category( '3' ) ): ?>
                 <div class="col-6 my-auto">
                     <a href="<?php echo get_category_link( 2 ); ?>#productos-header">
                         <img
@@ -207,6 +208,7 @@
                         >
                     </a>
                 </div>
+            <?php elseif( is_category( '2' ) ): ?>
                 <div class="col-6 my-auto">
                     <a href="<?php echo get_category_link( 3 ); ?>#productos-header">
                         <img
@@ -218,6 +220,7 @@
                         >
                     </a>
                 </div>
+            <?php endif; ?>
             </div>
         </div>
     </section>
