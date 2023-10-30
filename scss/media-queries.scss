@@ -31,8 +31,8 @@
 
     .descanso-2 { 
         .overlay {
-            // @include background('../images/bg-descanso-2.png', center, cover);
-            // background-color: $bg-primary;
+            @include background('../images/bg-descanso-2.png', center, cover);
+            background-color: $bg-primary;
         }
     }
 }
