@@ -163,7 +163,7 @@
                             <?php $i++; endwhile; ?>
                             <?php else : ?>
                                 <div class="col text-center">
-                                   <p>Lo sentimos, no hay nada para mostrar aquí todavía.</p>
+                                   <p>Lo sentimos, no hay productos para mostrar aquí.</p>
                                 </div>
                             <?php endif; ?>
                             <?php wp_reset_postdata(); ?>
