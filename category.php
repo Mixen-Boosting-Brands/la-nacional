@@ -127,6 +127,7 @@
 
                                 // Argumentos
                                 $args = array(
+                                    'cat' => get_query_var('cat'),
                                     'post_type' => 'post',
                                     'posts_per_page' => -1,
                                     'tag' => $tag_name
