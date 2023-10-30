@@ -177,4 +177,51 @@
         </div>
     </section>
 
+    <section id="nuestros-productos" class="py-100">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h1
+                        data-aos="fade-up"
+                    >
+                        Nuestros <span class="texto-rojo">productos.</span>
+                    </h1>
+                    <p
+                        class="fondo-azul my-4"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        Elige el producto de tu preferencia
+                    </p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-6 my-auto">
+                    <a href="<?php echo get_category_link( 2 ); ?>#productos-header">
+                        <img
+                            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-la-nacional.png"
+                            alt=""
+                            class="img-fluid"
+                            data-aos="fade-right"
+                            data-aos-delay="400"
+                        >
+                    </a>
+                </div>
+                <div class="col-6 my-auto">
+                    <a href="<?php echo get_category_link( 3 ); ?>#productos-header">
+                        <img
+                            src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-proti.png"
+                            alt=""
+                            class="img-fluid"
+                            data-aos="fade-left"
+                            data-aos-delay="400"
+                        >
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php include get_template_directory() . '/includes/contacto.php'; ?>
+
 <?php get_footer(); ?>
