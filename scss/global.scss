@@ -323,7 +323,7 @@ header {
     .overlay {
         // @include background('../images/bg-descanso-2.png', left, cover);
         @include background('../images/bg-tradicion-chihuahuense.jpg', center, cover);
-        background-color: $bg-primary;
+        //background-color: $bg-primary;
         color: $text-white;
         width: 100%;
         height: 100%;
