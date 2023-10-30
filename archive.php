@@ -197,7 +197,7 @@
             </div>
             <div class="row text-center">
             <?php if( is_category( '3' ) ): ?>
-                <div class="col-6 my-auto">
+                <div class="col-12 my-auto">
                     <a href="<?php echo get_category_link( 2 ); ?>#productos-header">
                         <img
                             src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-la-nacional.png"
@@ -209,7 +209,7 @@
                     </a>
                 </div>
             <?php elseif( is_category( '2' ) ): ?>
-                <div class="col-6 my-auto">
+                <div class="col-12 my-auto">
                     <a href="<?php echo get_category_link( 3 ); ?>#productos-header">
                         <img
                             src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-proti.png"
