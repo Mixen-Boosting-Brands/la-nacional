@@ -4,7 +4,7 @@
 @include media-breakpoint-up(sm) {
     .card {
         .card-img-top {
-            min-height: 315px;
+            min-height: 325px;
         }
     }
 }
@@ -25,7 +25,7 @@
 
     .card {
         .card-img-top {
-            min-height: 271px;
+            min-height: 280px;
         }
     }
 
@@ -46,7 +46,7 @@
 
     .card {
         .card-img-top {
-            min-height: 272px;
+            min-height: 280px;
         }
     }
 
@@ -69,7 +69,7 @@
 @include media-breakpoint-up(xl) {
     .card {
         .card-img-top {
-            min-height: 336px;
+            min-height: 348px;
         }
     }
 
@@ -88,7 +88,7 @@
 @include media-breakpoint-up(xxl) {
     .card {
         .card-img-top {
-            min-height: 401px;
+            min-height: 417px;
         }
     }
 
