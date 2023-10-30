@@ -257,7 +257,7 @@
         </div>
     </section>
 
-    <section
+    <!-- section
         id="tradicion-chihuahuense"
         class="descanso-1"
         data-aos="fade-up"
@@ -268,7 +268,7 @@
                 <span class="texto-rojo">Tradición Chihuahuense</span>
             </h1>
         </div>
-    </section>
+    </section -->
 
     <section class="descanso-2">
         <!-- img
