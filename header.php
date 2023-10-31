@@ -35,27 +35,27 @@
                 <ul class="list-inline">
                     <li class="list-inline-item">
                         <a id="btn-nav-1" href="<?php echo esc_url( home_url() ); ?>">
-                            <span>01</span> Inicio
+                            Inicio
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a id="btn-nav-2" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#nosotros">
-                            <span>02</span> Nosotros
+                            Nosotros
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a id="btn-nav-3" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#esto-es-la-nacional">
-                            <span>03</span> Experiencia Nacional
+                            Experiencia
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a id="btn-nav-4" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#nuestros-productos">
-                            <span>04</span> Productos
+                            Productos
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a id="btn-nav-5" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#contacto">
-                            <span>05</span> Contacto
+                            Contacto
                         </a>
                     </li>
                 </ul>

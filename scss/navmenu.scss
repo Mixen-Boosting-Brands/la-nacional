@@ -73,16 +73,6 @@
                 li {
                     position: relative;
                     display: block;
-
-                    a {
-                        span {
-                            color: $text-secondary;
-                            font-size: 1rem;
-                            margin-right: 5px;
-                            vertical-align: middle;
-                            display: none;
-                        }
-                    }
                 }
     
                 li:last-child {
