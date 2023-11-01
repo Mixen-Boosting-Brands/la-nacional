@@ -76,10 +76,10 @@
     #nosotros {
         .fondo-azul {
             padding: 60px;
-            position: absolute;
+            position: relative;
             left: -150px;
             width: 124%;
-            @include absolute-center-y;
+            top: 40px;
         }
     }
 }

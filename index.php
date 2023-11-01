@@ -27,7 +27,7 @@
                         data-aos-delay="200"
                     >
                 </div>
-                <div class="col-xl-4 my-auto position-relative">
+                <div class="col-xl-4 my-auto">
                     <div class="row">
                         <div class="col-12">
                             <div class="row">
