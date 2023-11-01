@@ -28,14 +28,26 @@
                     >
                 </div>
                 <div class="col-xl-4 my-auto position-relative">
-                    <p
-                        class="fondo-azul d-block"
-                        data-aos="zoom-in"
-                        data-aos-delay="800"
-                    >
-                        <?php bloginfo( 'name' ); ?> Alimentos es creada por una familia apasionada por su país y por su tierra. Dedicada durante más de 40 años a la producción de leche y al cultivo de cereales para la alimentación de su ganado criado con el más meticuloso cuidado, convirtiéndolo en el primer eslabón de una cadena que celebra la excelencia y dedicación en cada paso.
-                    </p>
-                    <a href="#" class="btn btn-primary">Conoce la esencia de La Nacional Alimentos</a>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                <p
+                                    class="fondo-azul d-block"
+                                    data-aos="zoom-in"
+                                    data-aos-delay="800"
+                                >
+                                    <?php bloginfo( 'name' ); ?> Alimentos es creada por una familia apasionada por su país y por su tierra. Dedicada durante más de 40 años a la producción de leche y al cultivo de cereales para la alimentación de su ganado criado con el más meticuloso cuidado, convirtiéndolo en el primer eslabón de una cadena que celebra la excelencia y dedicación en cada paso.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <a href="#" class="btn btn-primary">Conoce la esencia de La Nacional Alimentos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
