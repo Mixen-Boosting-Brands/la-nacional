@@ -43,7 +43,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <a href="#" class="btn btn-primary">Conoce la esencia de La Nacional Alimentos</a>
+                                    <a href="#" class="btn btn-primary my-4">Conoce la esencia de La Nacional Alimentos</a>
                                 </div>
                             </div>
                         </div>
