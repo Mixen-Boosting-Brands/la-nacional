@@ -43,7 +43,14 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <a href="#" class="btn btn-primary mt-4 mb-0 my-xl-4">Conoce la esencia de La Nacional Alimentos</a>
+                                    <a
+                                        href="#"
+                                        class="btn btn-primary mt-4 mb-0 my-xl-4"
+                                        data-aos="zoom-in"
+                                        data-aos-delay="900"
+                                    >
+                                        Conoce la esencia de La Nacional Alimentos
+                                    </a>
                                 </div>
                             </div>
                         </div>
