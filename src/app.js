@@ -6,6 +6,7 @@ import './smooth-scrolling';
 import './form-ajax';
 import './aos';
 import './carousels';
+import './modals';
 
 // Header
 $(function () {

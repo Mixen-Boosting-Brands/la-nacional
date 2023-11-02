@@ -94,6 +94,23 @@
         <i class="fab fa-whatsapp whatsapp-icon"></i>
     </a -->
 
+    <!-- Modales -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title text-uppercase"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="thumbnail"></div>
+                    <p class="gramaje"></p>
+                    <p class="ingredientes"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 	<?php wp_footer(); ?>
 
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/app.bundle.js"></script>
