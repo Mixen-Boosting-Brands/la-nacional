@@ -18,7 +18,7 @@ if (modal) {
         const modalIngredientes = modal.querySelector('.ingredientes')
 
         modalTitulo.textContent = `${titulo}`
-        modalThumbnail.src = `${thumbnailUrl}`
+        modalThumbnail.setAttribute("src", thumbnailUrl)
         modalGramaje.textContent = `${gramaje}`
         modalIngredientes.textContent = `${ingredientes}`
     })
