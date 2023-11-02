@@ -149,15 +149,17 @@
                                             <?php echo get_sub_field('descuento'); ?>
                                         </span>
                                         <?php endif; ?>
-                                    <?php endwhile; endif; ?>
                                         <div class="card-img-top">
-                                            <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modal" data-bs-titulo="<?php the_title(); ?>" data-bs-thumbnail="<?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>" data-bs-gramaje="<?php if( get_sub_field('peso_del_producto') ): ?><?php echo get_sub_field('gramaje'); ?><?php endif; ?>" data-bs-ingredientes="<?php if( get_sub_field('ingredientes_del_producto') ): ?><?php echo get_sub_field('ingredientes'); ?><?php endif; ?>">
+                                                <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
+                                            </a>
                                         </div>
                                         <div class="card-body">
                                             <p class="card-text">
                                                 <?php the_title(); ?>
                                             </p>
                                         </div>
+                                    <?php endwhile; endif; ?>
                                     </div>
                                 </div>
                             <?php $i++; endwhile; ?>
