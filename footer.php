@@ -103,7 +103,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="thumbnail"></div>
+                    <img src="" alt="" class="thumbnail img-fluid">
                     <p class="gramaje"></p>
                     <p class="ingredientes"></p>
                 </div>

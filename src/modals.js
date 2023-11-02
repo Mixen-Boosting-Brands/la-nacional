@@ -5,7 +5,7 @@ if (modal) {
         const button = event.relatedTarget
         // Extract info from data-bs-* attributes
         const titulo = button.getAttribute('data-bs-titulo')
-        const thumbnail = button.getAttribute('data-bs-thumbnail')
+        const thumbnailUrl = button.getAttribute('data-bs-thumbnail')
         const gramaje = button.getAttribute('data-bs-gramaje')
         const ingredientes = button.getAttribute('data-bs-ingredientes')
         // If necessary, you could initiate an Ajax request here
@@ -18,8 +18,8 @@ if (modal) {
         const modalIngredientes = modal.querySelector('.ingredientes')
 
         modalTitulo.textContent = `${titulo}`
-        modalThumbnail.innerHTML = `${thumbnail}`
+        modalThumbnail.src = `${thumbnailUrl}`
         modalGramaje.textContent = `${gramaje}`
-        modalGramaje.textContent = `${ingredientes}`
+        modalIngredientes.textContent = `${ingredientes}`
     })
 }
