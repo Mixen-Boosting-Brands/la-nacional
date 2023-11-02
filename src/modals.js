@@ -5,7 +5,7 @@ if (modal) {
         const button = event.relatedTarget
         // Extract info from data-bs-* attributes
         const titulo = button.getAttribute('data-bs-titulo')
-        const thumbnailUrl = button.getAttribute('data-bs-thumbnail')
+        const thumbnailUrl = button.getAttribute('data-bs-thumbnail-url')
         const gramaje = button.getAttribute('data-bs-gramaje')
         const ingredientes = button.getAttribute('data-bs-ingredientes')
         // If necessary, you could initiate an Ajax request here
