@@ -103,7 +103,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img alt="" id="thumbnail" class="img-fluid">
+                    <img alt="" id="thumbnail" class="thumbnail img-fluid">
                     <p class="gramaje"></p>
                     <p class="ingredientes"></p>
                 </div>
@@ -113,7 +113,7 @@
 
 	<?php wp_footer(); ?>
 
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/5aae0151439dfe19f69e.app.bundle.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/f4065f6618228658a210.app.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XRNLKGCQF1"></script>

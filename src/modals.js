@@ -13,7 +13,7 @@ if (modal) {
 
         // Update the modal's content.
         const modalTitulo = modal.querySelector('.modal-title')
-        const modalThumbnail = modal.getElementById('thumbnail')
+        const modalThumbnail = modal.querySelector('thumbnail')
         const modalGramaje = modal.querySelector('.gramaje')
         const modalIngredientes = modal.querySelector('.ingredientes')
 
@@ -22,6 +22,6 @@ if (modal) {
         modalGramaje.textContent = `${gramaje}`
         modalIngredientes.textContent = `${ingredientes}`
 
-        console.log(modalThumbnail);
+        console.log(modalTitulo);
     })
 }
