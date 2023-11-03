@@ -97,9 +97,19 @@
                                         <div class="card-img-top">
                                             <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modal" data-bs-titulo="<?php the_title(); ?>" data-bs-thumbnail-url="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" data-bs-gramaje="<?php if( get_sub_field('peso_del_producto') ): ?><?php echo get_sub_field('gramaje'); ?><?php endif; ?>" data-bs-ingredientes="<?php if( get_sub_field('ingredientes_del_producto') ): ?><?php echo get_sub_field('ingredientes'); ?><?php endif; ?>">
                                                 <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
-                                                <?php if( get_sub_field('gramaje') ): ?>
-                                                    <?php echo get_sub_field('gramaje'); ?>
+
+                                                <?php
+                                                    $gramaje = get_sub_field('gramaje');
+                                                    if( $gramaje ):
+                                                ?>
+                                                    <ul>
+                                                        <?php foreach( $gramajes as $gramaje ): ?>
+                                                            <li><?php echo $gramaje; ?></li>
+                                                        <?php endforeach; ?>
+                                                    </ul>
                                                 <?php endif; ?>
+
+
                                             </a>
                                         </div>
                                         <div class="card-body">
