@@ -2,7 +2,7 @@
     .modal-content {
         .modal-body {
             @include background('../img/bg-modal.png', center, cover);
-            padding: 60px;
+            padding: 60px !important;
         }
     }
 }
