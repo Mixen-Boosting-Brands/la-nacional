@@ -129,7 +129,7 @@
                 </div>
                 <div class="col-lg-6 my-auto text-center">
                     <img
-                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-la-nacional.png"
+                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-formulario.png"
                         alt=""
                         class="img-fluid my-4 my-lg-0"
                         data-aos="fade-up"
