@@ -1,6 +1,12 @@
 .modal {
     .modal-content {
-        padding: 60px !important;
+        padding: 0px 60px 60px !important;
+
+        .modal-header {
+            @include font-size(1.4rem);
+            border-bottom: none;
+            padding: 25px 0;
+        }
 
         .modal-body {
             @include background('../images/bg-modal.png', center, cover);
