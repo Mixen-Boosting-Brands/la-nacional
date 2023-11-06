@@ -113,14 +113,14 @@
                                 <img alt="" class="thumbnail img-fluid">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row mb-3">
                             <div class="col">
-                            <h4 class="gramaje"></h4>
+                                <h4 class="gramaje"></h4>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                            <p class="ingredientes"></p>
+                                <p>Ingredientes: <span class="ingredientes"></span></p>
                             </div>
                         </div>
                     </div>
