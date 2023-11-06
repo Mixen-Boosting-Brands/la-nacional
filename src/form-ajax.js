@@ -49,7 +49,7 @@ window.addEventListener('load', function () {
                             $('#nombre').val('');
                             $('#telefono').val('');
                             $('#correo').val('');
-                            $('#ciudad').val('');
+                            $('#asunto').val('');
                             $('#mensaje').val('');
                         }, 5000);
                     },
@@ -70,7 +70,7 @@ window.addEventListener('load', function () {
                             $('#nombre').val('');
                             $('#telefono').val('');
                             $('#correo').val('');
-                            $('#ciudad').val('');
+                            $('#asunto').val('');
                             $('#mensaje').val('');
                         }, 5000);
 
