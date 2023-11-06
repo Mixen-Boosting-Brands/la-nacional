@@ -1,8 +1,11 @@
 .modal {
     .modal-content {
+        padding: 60px !important;
+
         .modal-body {
             @include background('../images/bg-modal.png', center, cover);
-            padding: 60px !important;
+            border-radius: 25px;
+            color: $text-white;
         }
     }
 }
