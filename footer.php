@@ -115,7 +115,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                            <p class="gramaje"></p>
+                            <h4 class="gramaje"></h4>
                             </div>
                         </div>
                         <div class="row">
