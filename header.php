@@ -133,7 +133,7 @@
                                                 </strong>
                                             </h1>
                                             <p
-                                                class="fondo-azul"
+                                                class="fondo-blanco"
                                                 data-aos="fade-left"
                                             >
 												<?php echo get_sub_field('texto_renglon_3'); ?>
