@@ -102,10 +102,28 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h3 class="modal-title text-uppercase"></h3>
-                    <img alt="" class="thumbnail img-fluid">
-                    <p class="gramaje"></p>
-                    <p class="ingredientes"></p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="modal-title text-uppercase"></h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <img alt="" class="thumbnail img-fluid">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            <p class="gramaje"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            <p class="ingredientes"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
