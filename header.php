@@ -128,9 +128,9 @@
                                                 data-aos="fade-right"
                                             >
                                                 <?php echo get_sub_field('texto_renglon_1'); ?><br>
-                                                <strong>
-													<?php echo get_sub_field('texto_renglon_2'); ?>
-                                                </strong>
+                                                <!-- strong>
+													php echo get_sub_field('texto_renglon_2');
+                                                </strong -->
                                             </h1>
                                             <p
                                                 class="fondo-blanco"

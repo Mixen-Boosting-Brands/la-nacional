@@ -164,9 +164,9 @@
                     data-aos="fade-right"
                 >
                     <?php bloginfo( 'name' ); ?><br>
-                    <strong>
+                    <!-- strong>
                         es <span>Nutrición.</span>
-                    </strong>
+                    </strong -->
                 </h1>
                 <a href="#">
                     <p 
