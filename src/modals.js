@@ -22,7 +22,5 @@ if (modal) {
         modalThumbnail.src = `${thumbnailUrl}`;
         modalGramaje.textContent = `${gramaje}`
         modalIngredientes.textContent = `${ingredientes}`
-
-        console.log(modalTitulo);
     })
 }

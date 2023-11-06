@@ -131,7 +131,7 @@
 
 	<?php wp_footer(); ?>
 
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/83fc06384aae0fca649e.app.bundle.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/45c80db7bd23f1636b18.app.bundle.js"></script>
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XRNLKGCQF1"></script>
