@@ -1,6 +1,6 @@
 .modal {
     .modal-content {
-        padding: 0px 60px 60px !important;
+        padding: 0px 60px 60px;
 
         .modal-header {
             @include font-size(1.4rem);
@@ -12,6 +12,7 @@
             @include background('../images/bg-modal.png', center, cover);
             border-radius: 25px;
             color: $text-white;
+            padding: 16px 60px;
 
             img {
                 max-width: 300px;
