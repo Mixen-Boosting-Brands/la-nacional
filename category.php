@@ -95,10 +95,9 @@
                                         </span>
                                         <?php endif; ?>
                                         <div class="card-img-top">
-                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modal" data-bs-titulo="<?php the_title(); ?>" data-bs-thumbnail-url="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" data-bs-gramaje="<?php if( get_sub_field('peso_del_producto') ): ?><?php echo get_sub_field('peso_del_producto')['gramaje']; ?><?php endif; ?>" data-bs-ingredientes="<?php if( get_sub_field('ingredientes_del_producto') ): ?><?php echo get_sub_field('ingredientes_del_producto')['ingredientes']; ?><?php endif; ?>">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modal" data-bs-titulo="<?php the_title(); ?>" data-bs-thumbnail-url="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" data-bs-gramaje="" data-bs-ingredientes="<?php if( get_sub_field('ingredientes_del_producto') ): ?><?php echo get_sub_field('ingredientes_del_producto')['ingredientes']; ?><?php endif; ?>">
                                                 <?php the_post_thumbnail('thumb-producto', array('class' => 'img-fluid')); ?>
 
-                                                <?php if( get_sub_field('peso_del_producto') ): echo get_sub_field('peso_del_producto'); ?>
                                                     <?php
                                                         $gramajes = get_sub_field('peso_del_producto')['gramaje'];
                                                         if( $gramajes ):
@@ -109,7 +108,6 @@
                                                             <?php endforeach; ?>
                                                         </ul>
                                                     <?php endif; ?>
-                                                <?php endif; ?>
 
                                             </a>
                                         </div>
