@@ -5,10 +5,10 @@ const path = require('path');
 module.exports = {
     entry: './src/app.js',
     output: {
-        filename: '[hash].app.bundle.js',
+        filename: 'app.bundle.js',
         path: path.resolve(__dirname, 'assets/js')
     },
-    mode: 'development',
+    mode: 'production',
     module: {
         rules: [
             {
