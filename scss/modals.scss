@@ -1,0 +1,7 @@
+.modal {
+    .modal-content {
+        .modal-body {
+            @include background('../img/bg-modal.png', center, cover);
+        }
+    }
+}
