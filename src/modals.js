@@ -7,6 +7,7 @@ if (modal) {
         const titulo = button.getAttribute('data-bs-titulo')
         const thumbnailUrl = button.getAttribute('data-bs-thumbnail-url')
         const gramaje = button.getAttribute('data-bs-gramaje')
+        console.log(gramaje);
         const ingredientes = button.getAttribute('data-bs-ingredientes')
         // If necessary, you could initiate an Ajax request here
         // and then do the updating in a callback.
