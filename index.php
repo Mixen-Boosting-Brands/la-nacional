@@ -44,8 +44,10 @@
                             <div class="row">
                                 <div class="col-12">
                                     <a
-                                        href="#"
+                                        href="javascript:void(0)"
                                         class="btn btn-primary mt-4 mb-0 my-xl-4"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#modal-video"
                                         data-aos="zoom-in"
                                         data-aos-delay="900"
                                     >

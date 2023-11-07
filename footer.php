@@ -138,6 +138,21 @@
         </div>
     </div>
 
+    <div class="modal fade" id="modal-video" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                <div class="ratio ratio-16x9">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/XEpKKUTVHX8?si=oTGeYijaOYW0jop-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 	<?php wp_footer(); ?>
 
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/1291a7718ddc8cbd09e3.app.bundle.js"></script>
