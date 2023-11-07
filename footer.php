@@ -104,11 +104,11 @@
                 <div class="modal-body text-center">
                     <div class="container">
                         <div class="row">
-                            <div class="col">
+                            <div class="col mb-3">
                                 <h3 class="modal-title text-uppercase"></h3>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row mb-3">
                             <div class="col">
                                 <img alt="" class="thumbnail img-fluid">
                             </div>
