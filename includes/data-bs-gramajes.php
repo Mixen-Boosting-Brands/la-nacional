@@ -3,7 +3,7 @@
     if ($gramajes):
         $jsonEncodedGramajes = array_map(
             function($gramaje) {
-                return htmlspecialchars(json_encode($gramaje), ENT_QUOTES, 'UTF-8');
+                return htmlspecialchars(json_encode($gramaje), ENT_NOQUOTES, 'UTF-8');
             },
             $gramajes
         );
