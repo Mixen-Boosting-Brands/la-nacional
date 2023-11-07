@@ -1,4 +1,4 @@
-.modal {
+.modal-producto {
     .modal-content {
         padding: 0px 30px 30px;
 
@@ -29,7 +29,7 @@
 }
 
 @include media-breakpoint-up(lg) {
-    .modal {
+    .modal-producto {
         .modal-content {
             padding: 0px 60px 60px;
     
