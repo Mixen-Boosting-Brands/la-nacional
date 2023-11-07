@@ -29,11 +29,11 @@ if (modal) {
                 return JSON.parse('"' + spanContent.replace(/<\/?span>/g, '') + '"');
             });
             
-            // Accumulate the values in an array
+            // Accumulate the values in an array of span tags
             var gramajesTextArray = gramajesArray.map(function (gramaje) {
                 // Process each gramaje as needed
                 console.log(gramaje);
-                return gramaje;
+                return '<span>' + gramaje + '</span>';
             });
 
             // Join the accumulated values into a single string
