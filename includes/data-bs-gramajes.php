@@ -8,6 +8,6 @@
             $gramajes
         );
 
-        echo "'<span>" . implode('</span><span>', $jsonEncodedGramajes) . "</span>'";
+        echo "<span>" . implode('</span><span>', $jsonEncodedGramajes) . "</span>";
     endif;
 ?>
