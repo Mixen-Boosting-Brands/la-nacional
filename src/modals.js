@@ -26,7 +26,7 @@ if (modal) {
         
             // Parse the JSON content for each span
             var gramajesArray = spanContents.map(function (spanContent) {
-                return JSON.parse(spanContent);
+                return JSON.parse('"' + spanContent.replace(/<\/?span>/g, '') + '"');
             });
             
             // Now you can work with the array, which contains your HTML content
@@ -40,6 +40,3 @@ if (modal) {
         modalIngredientes.textContent = `${ingredientes}`
     })
 }
-
-
-
