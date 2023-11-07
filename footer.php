@@ -189,7 +189,7 @@
 
         }
 
-        var myModalEl = document.getElementById('dynamicVideoModal')
+        var myModalEl = document.getElementById('modal-video')
         myModalEl.addEventListener('show.bs.modal', function (event) {
             // dynamically create video when modal is opened
             loadYouTubeVideo()
