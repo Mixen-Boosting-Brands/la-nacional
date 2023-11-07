@@ -157,11 +157,11 @@
 
 	<script>
         var player
-
+        var staticPlayer
         function onYouTubeIframeAPIReady() {
-            console.log('onYouTubeIframeAPIReady...')
+            console.log('onYouTubeIframeAPIReady')
             player = new YT.Player('player', {
-                videoId: 'XEpKKUTVHX8', // YT video source
+                videoId: 'XEpKKUTVHX8',
                 playerVars: {
                     'playsinline': 1
                 },
@@ -176,8 +176,17 @@
             event.target.playVideo() // autostart
         }
 
+        var done = false;
         function onPlayerStateChange(event) {
-            // do other custom stuff here by watching the YT.PlayerState
+            if (event.data == YT.PlayerState.PLAYING && !done) {
+            // do other custom stuff here
+            //setTimeout(stopVideo, 6000);
+            //done = true;
+            }
+        }
+
+        function stopVideo() {
+            player.stopVideo()
         }
 
         function loadYouTubeVideo() {
@@ -189,10 +198,33 @@
 
         }
 
-        var myModalEl = document.getElementById('modal-video')
-        myModalEl.addEventListener('show.bs.modal', function (event) {
-            // dynamically create video when modal is opened
-            loadYouTubeVideo()
+        var dynamicVideoModal = document.getElementById('dynamicVideoModal')
+        dynamicVideoModal.addEventListener('show.bs.modal', function (event) {
+            // dynamically create video inside modal
+            // loadYouTubeVideo()
+        })
+        dynamicVideoModal.addEventListener('hidden.bs.modal', event => {
+            player.stopVideo()
+        })
+
+        // manual controls outside YT
+        const playBtn = document.getElementById('playBtn')
+        playBtn.addEventListener('click', function (event) {
+            player.playVideo()
+        })
+
+        const pauseBtn = document.getElementById('pauseBtn')
+        pauseBtn.addEventListener('click', function (event) {
+            console.log('pause')
+            player.pauseVideo()
+        })
+
+        const myModalEl = document.getElementById('video-modal')
+        myModalEl.addEventListener('show.bs.modal', event => {
+            staticPlayer = new YT.Player('staticPlayer')
+        })
+        myModalEl.addEventListener('hidden.bs.modal', event => {
+            staticPlayer.stopVideo()
         })
     </script>
     
