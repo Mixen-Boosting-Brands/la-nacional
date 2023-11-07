@@ -140,6 +140,7 @@ header {
     &:focus {
         background-color: $bg-secondary;
         border-color: $bg-secondary;
+        color: $text-white;
     }
 }
 
