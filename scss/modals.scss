@@ -12,6 +12,10 @@
             @include background('../images/bg-modal.png', center, cover);
             border-radius: 25px;
             color: $text-white;
+
+            span {
+                margin: 0 5px;
+            }
         }
     }
 }
