@@ -29,12 +29,16 @@ if (modal) {
                 return JSON.parse('"' + spanContent.replace(/<\/?span>/g, '') + '"');
             });
             
-            // Now you can work with the array, which contains your HTML content
+            // Accumulate the values
+            var gramajesText = '';
             gramajesArray.forEach(function (gramaje) {
                 // Process each gramaje as needed
                 console.log(gramaje);
-                modalGramaje.textContent = `${gramaje}`
+                gramajesText += `${gramaje} `;
             });
+
+            // Set the accumulated values outside the loop
+            modalGramaje.textContent = gramajesText.trim();
         }
 
         modalIngredientes.textContent = `${ingredientes}`
