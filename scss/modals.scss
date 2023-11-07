@@ -10,7 +10,7 @@
 
         .modal-body {
             @include background('../images/bg-modal.png', center, cover);
-            border-radius: 25px;
+            border-radius: 10px;
             color: $text-white;
 
             span {
