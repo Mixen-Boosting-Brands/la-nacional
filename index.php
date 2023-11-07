@@ -7,7 +7,7 @@
                     <h1
                         data-aos="fade-right"
                     >
-                        <?php bloginfo( 'name' ); ?> es <span class="texto-rojo">Tradición.</span>
+                        <?php bloginfo( 'name' ); ?> <span class="texto-rojo">Tradición.</span>
                     </h1>
                     <p
                         data-aos="fade-right"
