@@ -60,6 +60,15 @@
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </a>
                                 </li>
+                                <li
+                                    class="list-inline-item"
+                                    data-aos="fade-up"
+                                    data-aos-delay="1250"
+                                >
+                                    <a href="https://www.tiktok.com/" target="_blank">
+                                        <i class="fa-brands fa-tiktok"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
