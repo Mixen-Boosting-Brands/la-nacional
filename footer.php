@@ -198,7 +198,7 @@
 
         }
 
-        const myModalEl = document.getElementById('video-modal')
+        const myModalEl = document.getElementById('modal-video')
         myModalEl.addEventListener('show.bs.modal', event => {
             staticPlayer = new YT.Player('staticPlayer')
         })
