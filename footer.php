@@ -145,7 +145,9 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-center">
-                    <div class="ratio ratio-16x9" id="player"></div>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="//www.youtube.com/embed/XEpKKUTVHX8?enablejsapi=1&autoplay=1" type="text/html" id="staticPlayer"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -184,7 +186,7 @@
         }
 
         function loadYouTubeVideo() {
-            // 2. This code loads the IFrame Player API code asynchronously.
+            // 2. This code loads the iFrame Player API code asynchronously.
             var tag = document.createElement('script');
             tag.src = "https://www.youtube.com/iframe_api";
             var firstScriptTag = document.getElementsByTagName('script')[0];
