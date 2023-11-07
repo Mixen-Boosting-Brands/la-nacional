@@ -157,11 +157,10 @@
 
 	<script>
         var player
-        var staticPlayer
         function onYouTubeIframeAPIReady() {
-            console.log('onYouTubeIframeAPIReady')
+            console.log('onYouTubeIframeAPIReady...')
             player = new YT.Player('player', {
-                videoId: 'XEpKKUTVHX8',
+                videoId: 'XEpKKUTVHX8', // YT video source
                 playerVars: {
                     'playsinline': 1
                 },
@@ -176,13 +175,8 @@
             event.target.playVideo() // autostart
         }
 
-        var done = false;
         function onPlayerStateChange(event) {
-            if (event.data == YT.PlayerState.PLAYING && !done) {
-            // do other custom stuff here
-            //setTimeout(stopVideo, 6000);
-            //done = true;
-            }
+            // do other custom stuff here by watching the YT.PlayerState
         }
 
         function stopVideo() {
@@ -198,12 +192,14 @@
 
         }
 
-        const myModalEl = document.getElementById('modal-video')
-        myModalEl.addEventListener('show.bs.modal', event => {
-            staticPlayer = new YT.Player('staticPlayer')
+        var myModalEl = document.getElementById('modal-video')
+        myModalEl.addEventListener('show.bs.modal', function (event) {
+            // dynamically create video when modal is opened
+            loadYouTubeVideo()
         })
-        myModalEl.addEventListener('hidden.bs.modal', event => {
-            staticPlayer.stopVideo()
+        myModalEl.addEventListener('hidden.bs.modal', function (event) {
+            // dynamically create video when modal is opened
+            stopVideo()
         })
     </script>
     
