@@ -20,6 +20,14 @@
     }
 }
 
+.modal-video {
+    .modal-content {
+        .modal-body {
+            padding: 0;
+        }
+    }
+}
+
 @include media-breakpoint-up(sm) {
 
 }
