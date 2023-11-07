@@ -6,8 +6,7 @@ if (modal) {
         // Extract info from data-bs-* attributes
         const titulo = button.getAttribute('data-bs-titulo')
         const thumbnailUrl = button.getAttribute('data-bs-thumbnail-url')
-        const gramaje = button.getAttribute('data-bs-gramaje')
-        console.log(gramaje);
+        const gramajesData = button.getAttribute('data-bs-gramaje')
         const ingredientes = button.getAttribute('data-bs-ingredientes')
         // If necessary, you could initiate an Ajax request here
         // and then do the updating in a callback.
@@ -20,7 +19,27 @@ if (modal) {
 
         modalTitulo.textContent = `${titulo}`
         modalThumbnail.src = `${thumbnailUrl}`;
-        modalGramaje.textContent = `${gramaje}`
+
+        if (gramajesData) {
+            // Extract the content from the span tags
+            var spanContents = gramajesData.match(/<span>(.*?)<\/span>/g);
+        
+            // Parse the JSON content for each span
+            var gramajesArray = spanContents.map(function (spanContent) {
+                return JSON.parse(spanContent);
+            });
+            
+            // Now you can work with the array, which contains your HTML content
+            gramajesArray.forEach(function (gramaje) {
+                // Process each gramaje as needed
+                console.log(gramaje);
+                modalGramaje.textContent = `${gramaje}`
+            });
+        }
+
         modalIngredientes.textContent = `${ingredientes}`
     })
 }
+
+
+
