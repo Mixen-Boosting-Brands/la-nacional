@@ -198,27 +198,6 @@
 
         }
 
-        var dynamicVideoModal = document.getElementById('dynamicVideoModal')
-        dynamicVideoModal.addEventListener('show.bs.modal', function (event) {
-            // dynamically create video inside modal
-            // loadYouTubeVideo()
-        })
-        dynamicVideoModal.addEventListener('hidden.bs.modal', event => {
-            player.stopVideo()
-        })
-
-        // manual controls outside YT
-        const playBtn = document.getElementById('playBtn')
-        playBtn.addEventListener('click', function (event) {
-            player.playVideo()
-        })
-
-        const pauseBtn = document.getElementById('pauseBtn')
-        pauseBtn.addEventListener('click', function (event) {
-            console.log('pause')
-            player.pauseVideo()
-        })
-
         const myModalEl = document.getElementById('video-modal')
         myModalEl.addEventListener('show.bs.modal', event => {
             staticPlayer = new YT.Player('staticPlayer')
