@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-7 text-end">
                     <div class="row">
-                        <div class="col-5 col-sm-6 col-md-3 offset-md-5 col-lg-3 offset-lg-6 col-xl-2 offset-xl-7 col-xxl-2 offset-xxl-7 my-auto text-end">
+                        <div class="col-4 col-sm-6 col-md-3 offset-md-5 col-lg-3 offset-lg-6 col-xl-2 offset-xl-7 col-xxl-2 offset-xxl-7 my-auto text-end">
                             <p
                                 class="mb-0"
                                 data-aos="fade-up"
@@ -40,7 +40,7 @@
                                 Síguenos
                             </p>
                         </div>
-                        <div class="col-7 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 my-auto">
+                        <div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 my-auto">
                             <ul class="social list-inline mb-0">
                                 <li
                                     class="list-inline-item"
