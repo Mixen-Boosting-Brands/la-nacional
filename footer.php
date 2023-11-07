@@ -63,7 +63,7 @@
                                 <li
                                     class="list-inline-item"
                                     data-aos="fade-up"
-                                    data-aos-delay="1250"
+                                    data-aos-delay="1500"
                                 >
                                     <a href="https://www.tiktok.com/" target="_blank">
                                         <i class="fa-brands fa-tiktok"></i>
