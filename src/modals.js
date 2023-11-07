@@ -39,8 +39,8 @@ if (modal) {
             // Join the accumulated values into a single string
             var gramajesText = gramajesTextArray.join(' ');
 
-            // Set the joined values
-            modalGramaje.textContent = gramajesText;
+            // Set the joined values as HTML using innerHTML
+            modalGramaje.innerHTML = gramajesText;
         }
 
         modalIngredientes.textContent = `${ingredientes}`
