@@ -2,7 +2,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-5">
                     <address
                         data-aos="fade-up"
                     >
@@ -29,7 +29,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-6 text-end">
+                <div class="col-7 text-end">
                     <div class="row">
                         <div class="col-5 col-sm-6 col-md-3 offset-md-5 col-lg-3 offset-lg-6 col-xl-2 offset-xl-7 col-xxl-2 offset-xxl-7 my-auto text-end">
                             <p
