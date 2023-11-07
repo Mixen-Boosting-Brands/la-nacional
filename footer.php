@@ -145,9 +145,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-center">
-                <div class="ratio ratio-16x9">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/XEpKKUTVHX8?si=oTGeYijaOYW0jop-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+                    <div class="ratio ratio-16x9" id="player"></div>
                 </div>
             </div>
         </div>
@@ -157,7 +155,48 @@
 
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/1291a7718ddc8cbd09e3.app.bundle.js"></script>
 
-	<!-- Google tag (gtag.js) -->
+	<script>
+        var player
+
+        function onYouTubeIframeAPIReady() {
+            console.log('onYouTubeIframeAPIReady...')
+            player = new YT.Player('player', {
+                videoId: 'XEpKKUTVHX8', // YT video source
+                playerVars: {
+                    'playsinline': 1
+                },
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            })
+        }
+
+        function onPlayerReady(event) {
+            event.target.playVideo() // autostart
+        }
+
+        function onPlayerStateChange(event) {
+            // do other custom stuff here by watching the YT.PlayerState
+        }
+
+        function loadYouTubeVideo() {
+            // 2. This code loads the IFrame Player API code asynchronously.
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        }
+
+        var myModalEl = document.getElementById('dynamicVideoModal')
+        myModalEl.addEventListener('show.bs.modal', function (event) {
+            // dynamically create video when modal is opened
+            loadYouTubeVideo()
+        })
+    </script>
+    
+    <!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XRNLKGCQF1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
