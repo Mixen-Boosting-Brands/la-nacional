@@ -29,16 +29,18 @@ if (modal) {
                 return JSON.parse('"' + spanContent.replace(/<\/?span>/g, '') + '"');
             });
             
-            // Accumulate the values
-            var gramajesText = '';
-            gramajesArray.forEach(function (gramaje) {
+            // Accumulate the values in an array
+            var gramajesTextArray = gramajesArray.map(function (gramaje) {
                 // Process each gramaje as needed
                 console.log(gramaje);
-                gramajesText += `${gramaje} `;
+                return gramaje;
             });
 
-            // Set the accumulated values outside the loop
-            modalGramaje.textContent = gramajesText.trim();
+            // Join the accumulated values into a single string
+            var gramajesText = gramajesTextArray.join(' ');
+
+            // Set the joined values
+            modalGramaje.textContent = gramajesText;
         }
 
         modalIngredientes.textContent = `${ingredientes}`
