@@ -8,6 +8,8 @@
             $gramajes
         );
 
-        echo '<span>' . implode('</span><span>', $jsonEncodedGramajes) . '</span>';
+        echo implode('', array_map(function($encodedGramaje) {
+            return '<span>' . $encodedGramaje . '</span>';
+        }, $jsonEncodedGramajes));
     endif;
 ?>
