@@ -146,7 +146,7 @@
                 </div>
                 <div class="modal-body text-center">
                     <div class="ratio ratio-16x9">
-                        <iframe src="//www.youtube.com/embed/XEpKKUTVHX8?enablejsapi=1&autoplay=1" type="text/html" id="staticPlayer"></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/XEpKKUTVHX8?si=oTGeYijaOYW0jop-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -155,54 +155,13 @@
 
 	<?php wp_footer(); ?>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/1291a7718ddc8cbd09e3.app.bundle.js"></script>
 
 	<script>
-        var player
-        function onYouTubeIframeAPIReady() {
-            console.log('onYouTubeIframeAPIReady...')
-            player = new YT.Player('player', {
-                videoId: 'XEpKKUTVHX8', // YT video source
-                playerVars: {
-                    'playsinline': 1
-                },
-                events: {
-                    'onReady': onPlayerReady,
-                    'onStateChange': onPlayerStateChange
-                }
-            })
-        }
-
-        function onPlayerReady(event) {
-            event.target.playVideo() // autostart
-        }
-
-        function onPlayerStateChange(event) {
-            // do other custom stuff here by watching the YT.PlayerState
-        }
-
-        function stopVideo() {
-            player.stopVideo()
-        }
-
-        function loadYouTubeVideo() {
-            // 2. This code loads the iFrame Player API code asynchronously.
-            var tag = document.createElement('script');
-            tag.src = "https://www.youtube.com/iframe_api";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-        }
-
-        var myModalEl = document.getElementById('modal-video')
-        myModalEl.addEventListener('show.bs.modal', function (event) {
-            // dynamically create video when modal is opened
-            loadYouTubeVideo()
-        })
-        myModalEl.addEventListener('hidden.bs.modal', function (event) {
-            // dynamically create video when modal is opened
-            stopVideo()
-        })
+        $("#modal-video").on('hidden.bs.modal', function (e) {
+            $("#modal-video iframe").attr("src", $("#modal-video iframe").attr("src"));
+        });
     </script>
     
     <!-- Google tag (gtag.js) -->
