@@ -74,7 +74,8 @@ a {
 }
 
 header {
-    font-size: 2rem;
+    color: $text-white;
+    @include font-size(1.4rem);
     width: 100%;
     height: auto;
     padding: 15px 30px;
@@ -89,6 +90,7 @@ header {
         @include transition(ease, 0.2s);
     }
 
+    nav,
     #mburger {
         color: $text-white;
 
