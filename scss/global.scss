@@ -85,7 +85,7 @@ header {
     @include transition(ease, 0.2s);
 
     #logo-navbar {
-        width: 140px;
+        width: 170px;
         @include transition(ease, 0.2s);
     }
 
@@ -210,7 +210,7 @@ header {
         align-items: center;
 
         img {
-            max-height: 300px;
+            max-height: 235px;
         }
     }
 
