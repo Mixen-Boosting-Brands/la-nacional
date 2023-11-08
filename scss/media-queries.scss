@@ -5,6 +5,10 @@
     .card {
         .card-img-top {
             min-height: 325px;
+
+            img {
+                max-height: 300px;
+            }
         }
     }
 }
@@ -26,6 +30,10 @@
     .card {
         .card-img-top {
             min-height: 280px;
+
+            img {
+                max-height: 190px;
+            }
         }
     }
 
@@ -70,6 +78,10 @@
     .card {
         .card-img-top {
             min-height: 348px;
+
+            img {
+                max-height: 256px;
+            }
         }
     }
 
