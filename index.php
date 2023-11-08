@@ -92,7 +92,7 @@
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
-                        Elige el producto de tu preferencia
+                        Elige la marca de tu preferencia
                     </p>
                 </div>
             </div>
