@@ -22,6 +22,34 @@
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/styles.css">
 </head>
 <body>
+    <div class="redes-sociales">
+        <ul class="list-unstyled mb-0">
+            <li
+                data-aos="fade-up"
+                data-aos-delay="250"
+            >
+                <a href="https://www.instagram.com/lacteoslanacional" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li
+                data-aos="fade-up"
+                data-aos-delay="500"
+            >
+                <a href="https://www.facebook.com/lacteoslanacional" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </li>
+            <li
+                data-aos="fade-up"
+                data-aos-delay="750"
+            >
+                <a href="https://www.tiktok.com/" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
     <div id="backdrop"></div>
     <div class="menu">
         <a id="cerrar-menu" href="javascript:void(0)">
