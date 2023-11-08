@@ -103,7 +103,7 @@
                 </div>
                 <div class="col-8 my-auto text-end">
                     <nav class="d-none d-lg-block">
-                        <ul class="list-inline">
+                        <ul class="list-inline mb-0">
                             <li class="list-inline-item">
                                 <a href="<?php echo esc_url( home_url() ); ?>">
                                     Inicio
