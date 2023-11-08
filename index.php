@@ -85,7 +85,7 @@
                     <h1
                         data-aos="fade-up"
                     >
-                        Nuestros <span class="texto-rojo">productos.</span>
+                        Nuestras <span class="texto-rojo">marcas.</span>
                     </h1>
                     <p
                         class="fondo-azul my-4"
