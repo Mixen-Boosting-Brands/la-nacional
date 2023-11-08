@@ -10,6 +10,30 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     position: relative;
+
+    .redes-sociales {
+        position: fixed;
+        right: 0;
+        @include absolute-center-y;
+        background-color: $bg-white;
+        border-radius: 8px 0 0 8px;
+        box-shadow: 2px 2px 5px 2px #797979;
+        color: $text-primary;
+        padding: 10px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        a {
+            color: $text-primary;
+
+            &:hover,
+            &:focus {
+                color: $text-secondary;
+            }
+        }
+    }
 }
 
 header,
@@ -109,7 +133,7 @@ header {
     #logo-navbar {
         width: 100px !important;
     }
-    
+
     nav,
     #mburger {
         color: $text-white !important;
