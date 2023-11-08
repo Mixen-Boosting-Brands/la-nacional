@@ -105,27 +105,27 @@
                     <nav class="d-none d-lg-block">
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <a id="btn-nav-1" href="<?php echo esc_url( home_url() ); ?>">
+                                <a href="<?php echo esc_url( home_url() ); ?>">
                                     Inicio
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a id="btn-nav-2" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#nosotros">
+                                <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#nosotros">
                                     Nosotros
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a id="btn-nav-3" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#esto-es-la-nacional">
+                                <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#esto-es-la-nacional">
                                     Experiencia
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a id="btn-nav-4" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#nuestros-productos">
+                                <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#nuestros-productos">
                                     Productos
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a id="btn-nav-5" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#contacto">
+                                <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#contacto">
                                     Contacto
                                 </a>
                             </li>
