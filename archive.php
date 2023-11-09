@@ -7,7 +7,7 @@
                     <h1
                         data-aos="fade-up"
                     >
-                        Nuestros <span class="texto-rojo">productos.</span>
+                        Nuestros <span class="texto-secundario">productos.</span>
                     </h1>
                     <p
                         class="fondo-azul my-4"
@@ -192,7 +192,7 @@
                     <h1
                         data-aos="fade-up"
                     >
-                        Nuestras <span class="texto-rojo">marcas.</span>
+                        Nuestras <span class="texto-secundario">marcas.</span>
                     </h1>
                     <p
                         class="fondo-azul my-4"

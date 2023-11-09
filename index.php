@@ -7,7 +7,7 @@
                     <h1
                         data-aos="fade-right"
                     >
-                        <?php bloginfo( 'name' ); ?>; <span class="texto-rojo">Tradición.</span>
+                        <?php bloginfo( 'name' ); ?>; <span class="texto-secundario">Tradición.</span>
                     </h1>
                     <p
                         data-aos="fade-right"
@@ -85,7 +85,7 @@
                     <h1
                         data-aos="fade-up"
                     >
-                        Nuestras <span class="texto-rojo">marcas.</span>
+                        Nuestras <span class="texto-secundario">marcas.</span>
                     </h1>
                     <p
                         class="fondo-azul my-4"
@@ -147,7 +147,7 @@
         <div class="overlay">
             <h1>
                 <?php bloginfo( 'name' ); ?> es<br>
-                <span class="texto-rojo">Tradición Chihuahuense</span>
+                <span class="texto-secundario">Tradición Chihuahuense</span>
             </h1>
         </div>
     </section -->
