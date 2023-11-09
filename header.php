@@ -84,7 +84,7 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a id="btn-nav-5" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#contacto">
+                        <a id="btn-nav-5" href="#contacto">
                             Contacto
                         </a>
                     </li>
@@ -155,7 +155,7 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#contacto">
+                                <a class="anchor" href="#contacto">
                                     Contacto
                                 </a>
                             </li>
