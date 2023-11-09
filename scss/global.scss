@@ -19,7 +19,8 @@ body {
         border-radius: 8px 0 0 8px;
         box-shadow: 2px 2px 5px 2px #797979;
         color: $text-primary;
-        padding: 10px 8px;
+        font-size: 1.4rem;
+        padding: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -115,6 +116,7 @@ header {
         @include transition(ease, 0.2s);
     }
 
+    a,
     nav,
     #mburger {
         color: $text-white;
@@ -135,6 +137,7 @@ header {
         width: 100px !important;
     }
 
+    a,
     nav,
     #mburger {
         color: $text-white !important;
