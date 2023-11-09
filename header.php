@@ -44,7 +44,7 @@
                 data-aos="fade-up"
                 data-aos-delay="750"
             >
-                <a href="https://www.tiktok.com/" target="_blank">
+                <a href="https://www.tiktok.com/@lanacionalcremeria" target="_blank">
                     <i class="fa-brands fa-tiktok"></i>
                 </a>
             </li>
