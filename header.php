@@ -181,22 +181,26 @@
                             <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="slide slide-<?php echo $i; ?>">
-                                    <div class="overlay">
-                                        <div>
+                                    <div class="overlay"></div>
+                                    <div class="row">
+                                        <div class="col-lg-6 my-auto">
                                             <h1
                                                 data-aos="fade-right"
                                             >
                                                 <?php echo get_sub_field('texto_renglon_1'); ?><br>
                                                 <!-- strong>
-													php echo get_sub_field('texto_renglon_2');
+                                                    php echo get_sub_field('texto_renglon_2');
                                                 </strong -->
                                             </h1>
                                             <p
                                                 class="fondo-blanco"
                                                 data-aos="fade-left"
                                             >
-												<?php echo get_sub_field('texto_renglon_3'); ?>
+                                                <?php echo get_sub_field('texto_renglon_3'); ?>
                                             </p>
+                                        </div>
+                                        <div class="col-lg-6 my-auto">
+                                            
                                         </div>
                                     </div>
                                 </div>

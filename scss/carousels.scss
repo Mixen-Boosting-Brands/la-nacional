@@ -34,6 +34,21 @@
     position: relative;
     float: left;
 
+    h1 {
+      font-size: 2rem;
+      font-weight: 300;
+      letter-spacing: -2px;
+      line-height: 3rem;
+
+      strong {
+        font-size: 4rem;
+      }
+
+      span {
+        color: $text-white;
+      }
+    }
+
     .overlay {
       background-color: rgba(0,0,0,0.1);
       color: $text-white;
@@ -46,21 +61,6 @@
       display: flex;
       justify-content: left;
       align-items: center;
-
-      h1 {
-        font-size: 2rem;
-        font-weight: 300;
-        letter-spacing: -2px;
-        line-height: 3rem;
-
-        strong {
-          font-size: 4rem;
-        }
-
-        span {
-          color: $text-white;
-        }
-      }
     }
   }
 }
