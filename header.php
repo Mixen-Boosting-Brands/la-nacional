@@ -19,7 +19,7 @@
 
 	<?php wp_head(); ?>
 
-	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/styles.css">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/styles.css?ver=<?php echo rand(111, 999); ?>">
 </head>
 <body>
     <div class="redes-sociales">
