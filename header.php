@@ -201,7 +201,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8 d-flex justify-content-center align-items-center text-center">
+                                        <div class="col-lg-8 justify-content-center align-items-center text-center">
                                             <div class="row">
                                                 <div class="col-4">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid">
