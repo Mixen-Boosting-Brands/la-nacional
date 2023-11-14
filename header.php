@@ -181,7 +181,7 @@
                             <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="slide slide-<?php echo $i; ?>">
-                                    <div class="overlay"></div>
+                                    <!-- div class="overlay"></div -->
                                     <div class="row">
                                         <div class="col-lg-6 my-auto">
                                             <h1
