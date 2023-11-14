@@ -202,26 +202,18 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-8 d-flex justify-content-center align-items-center">
-                                            <div class="row">
+                                            <div class="row text-center">
                                                 <div class="col-4">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid">
                                                 </div>
                                                 <div class="col-4">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png" alt="" class="img-fluid">
                                                 </div>
                                                 <div class="col-4">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png" alt="" class="img-fluid">
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-12 d-flex flex-row align-items-start justify-content-center">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png" alt="" class="img-fluid">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-5.png" alt="" class="img-fluid">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-6.png" alt="" class="img-fluid">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-7.png" alt="" class="img-fluid">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-8.png" alt="" class="img-fluid">
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
