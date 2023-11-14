@@ -66,9 +66,17 @@
       position: relative;
     }
 
+    .circle {
+      img {
+        min-width: 150px;
+        left: -22px;
+      }
+    }
+
     .square {
       img {
-        min-width: 124px;
+        min-width: 88px;
+        left: -22px;
       }
     }
 
