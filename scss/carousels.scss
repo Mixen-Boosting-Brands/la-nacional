@@ -108,6 +108,17 @@
       background-position: center !important;
       // height: 80vh;
 
+      .row-padre {
+  
+        & > div:first-child {
+          height: auto;
+        }
+  
+        & > div:last-child {
+          height: auto;
+        }
+      }
+
       h1 {
         font-size: 3rem;
         letter-spacing: -2px;
