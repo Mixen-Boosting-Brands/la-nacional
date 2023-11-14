@@ -200,7 +200,20 @@
                                             </p>
                                         </div>
                                         <div class="col-lg-6 my-auto">
-                                            
+                                            <div class="row">
+                                                <div class="col-12 text-center">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png" alt="" class="img-fluid">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="col-12 text-center">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png" alt="" class="img-fluid">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-5.png" alt="" class="img-fluid">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-6.png" alt="" class="img-fluid">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-7.png" alt="" class="img-fluid">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-8.png" alt="" class="img-fluid">
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
