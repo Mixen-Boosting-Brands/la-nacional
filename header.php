@@ -183,7 +183,7 @@
                                 <div class="slide slide-<?php echo $i; ?>">
                                     <!-- div class="overlay"></div -->
                                     <div class="row row-padre">
-                                        <div class="col-lg-3 offset-lg-1 d-flex justify-content-center align-items-center text-center text-lg-start">
+                                        <div class="col-lg-3 offset-lg-1 d-flex justify-content-center align-items-center">
                                             <div>
                                                 <h1
                                                     data-aos="fade-right"
@@ -201,7 +201,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8 my-auto">
+                                        <div class="col-lg-8 d-flex justify-content-center align-items-center">
                                             <div class="row">
                                                 <div class="col-12 d-flex flex-row align-items-end justify-content-center">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid">
