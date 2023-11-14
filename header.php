@@ -213,7 +213,23 @@
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png" alt="" class="img-fluid">
                                                 </div>
                                             </div>
-                                           
+                                            <div class="row text-center">
+                                                <div class="col-2 offset-1">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-5.png" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-6.png" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-7.png" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-8.png" alt="" class="img-fluid">
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
