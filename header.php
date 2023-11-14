@@ -183,7 +183,7 @@
                                 <div class="slide slide-<?php echo $i; ?>">
                                     <!-- div class="overlay"></div -->
                                     <div class="row">
-                                        <div class="col-lg-2 offset-2 my-auto">
+                                        <div class="col-lg-3 offset-1 my-auto">
                                             <h1
                                                 data-aos="fade-right"
                                             >

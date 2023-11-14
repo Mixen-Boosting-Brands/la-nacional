@@ -23,7 +23,7 @@
 
 .swiper-jumbotron {
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   position: relative;
 
   .slide {
@@ -31,7 +31,7 @@
     background-size: cover !important;
     color: $text-white;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     position: relative;
     float: left;
 
@@ -80,6 +80,7 @@
 
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
+  /*
   .swiper-jumbotron {
     height: 60vh;
 
@@ -87,16 +88,17 @@
       height: 60vh;
     }
   }
+  */
 }
 
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
   .swiper-jumbotron {
-    height: 80vh;
+    // height: 80vh;
 
     .slide {
       background-position: center !important;
-      height: 80vh;
+      // height: 80vh;
 
       h1 {
         font-size: 3rem;
@@ -113,13 +115,7 @@
 
 // X-Large devices (large desktops, 1200px and up)
 @include media-breakpoint-up(xl) {
-  .swiper-jumbotron {
-    height: 100vh;
-
-    .slide {
-      height: 100vh;
-    }
-  }
+  
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
