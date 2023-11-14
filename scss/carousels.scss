@@ -167,6 +167,10 @@
   
         & > div:last-child {
           height: 60vh;
+
+          .row {
+            height: 60vh;
+          }
         }
       }
 
