@@ -63,7 +63,13 @@
     }
 
     img {
-      // max-width: 90px;
+      position: relative;
+    }
+
+    .square {
+      img {
+        min-width: 124px;
+      }
     }
 
     .overlay {

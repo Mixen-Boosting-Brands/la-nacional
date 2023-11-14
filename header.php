@@ -202,7 +202,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-8 justify-content-center align-items-center text-center">
-                                            <div class="row">
+                                            <div class="row circle">
                                                 <div class="col-4">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid">
                                                 </div>
@@ -213,7 +213,7 @@
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png" alt="" class="img-fluid">
                                                 </div>
                                             </div>
-                                            <div class="row">
+                                            <div class="row square">
                                                 <div class="col-2 offset-1">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png" alt="" class="img-fluid">
                                                 </div>
