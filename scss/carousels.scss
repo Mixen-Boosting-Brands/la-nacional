@@ -37,6 +37,14 @@
 
     .row-padre {
       min-height: 100vh !important;
+
+      & > div:first-child {
+        height: 60vh;
+      }
+
+      & > div:last-child {
+        height: 40vh;
+      }
     }
 
     h1 {
