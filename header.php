@@ -183,21 +183,23 @@
                                 <div class="slide slide-<?php echo $i; ?>">
                                     <!-- div class="overlay"></div -->
                                     <div class="row row-padre">
-                                        <div class="col-lg-3 offset-lg-1 my-auto text-center text-lg-start">
-                                            <h1
-                                                data-aos="fade-right"
-                                            >
-                                                <?php echo get_sub_field('texto_renglon_1'); ?><br>
-                                                <!-- strong>
-                                                    php echo get_sub_field('texto_renglon_2');
-                                                </strong -->
-                                            </h1>
-                                            <p
-                                                class="fondo-blanco"
-                                                data-aos="fade-left"
-                                            >
-                                                <?php echo get_sub_field('texto_renglon_3'); ?>
-                                            </p>
+                                        <div class="col-lg-3 offset-lg-1 d-flex align-items-center text-center text-lg-start">
+                                            <div>
+                                                <h1
+                                                    data-aos="fade-right"
+                                                >
+                                                    <?php echo get_sub_field('texto_renglon_1'); ?><br>
+                                                    <!-- strong>
+                                                        php echo get_sub_field('texto_renglon_2');
+                                                    </strong -->
+                                                </h1>
+                                                <p
+                                                    class="fondo-blanco"
+                                                    data-aos="fade-left"
+                                                >
+                                                    <?php echo get_sub_field('texto_renglon_3'); ?>
+                                                </p>
+                                            </div>
                                         </div>
                                         <div class="col-lg-8 my-auto">
                                             <div class="row">
