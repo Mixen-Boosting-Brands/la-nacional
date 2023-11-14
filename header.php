@@ -170,7 +170,7 @@
     </header>
 
 	<section id="jumbotron">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <!-- Slider main container -->
@@ -183,7 +183,7 @@
                                 <div class="slide slide-<?php echo $i; ?>">
                                     <!-- div class="overlay"></div -->
                                     <div class="row">
-                                        <div class="col-lg-4 my-auto">
+                                        <div class="col-lg-2 offset-2 my-auto">
                                             <h1
                                                 data-aos="fade-right"
                                             >
@@ -201,12 +201,12 @@
                                         </div>
                                         <div class="col-lg-8 my-auto">
                                             <div class="row">
-                                                <div class="col-12 flex-row text-center">
+                                                <div class="col-12 flex-row align-items-end text-center">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png" alt="" class="img-fluid">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png" alt="" class="img-fluid">
                                                 </div>
-                                                <div class="col-12 flex-row text-center">
+                                                <div class="col-12 flex-row align-items-start text-center">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png" alt="" class="img-fluid">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-5.png" alt="" class="img-fluid">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-6.png" alt="" class="img-fluid">
