@@ -183,7 +183,7 @@
                                 <div class="slide slide-<?php echo $i; ?>">
                                     <!-- div class="overlay"></div -->
                                     <div class="row">
-                                        <div class="col-lg-6 my-auto">
+                                        <div class="col-lg-4 my-auto">
                                             <h1
                                                 data-aos="fade-right"
                                             >
@@ -199,7 +199,7 @@
                                                 <?php echo get_sub_field('texto_renglon_3'); ?>
                                             </p>
                                         </div>
-                                        <div class="col-lg-6 my-auto">
+                                        <div class="col-lg-8 my-auto">
                                             <div class="row">
                                                 <div class="col-12 flex-row text-center">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid">
