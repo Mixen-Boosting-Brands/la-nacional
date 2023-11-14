@@ -129,6 +129,25 @@
     }
   }
   */
+
+  .swiper-jumbotron {
+    .slide {
+      .circle {
+        img {
+          min-width: 276px;
+          left: -22px;
+        }
+      }
+
+      .square {
+        img {
+          min-width: 190px;
+          top: -100px;
+          left: -44px;
+        }
+      }
+    }
+  }
 }
 
 // Large devices (desktops, 992px and up)
