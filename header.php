@@ -183,7 +183,7 @@
                                 <div class="slide slide-<?php echo $i; ?>">
                                     <!-- div class="overlay"></div -->
                                     <div class="row row-padre">
-                                        <div class="col-lg-3 offset-lg-1 d-flex align-items-center text-center text-lg-start">
+                                        <div class="col-lg-3 offset-lg-1 d-flex justify-content-center align-items-center text-center text-lg-start">
                                             <div>
                                                 <h1
                                                     data-aos="fade-right"
