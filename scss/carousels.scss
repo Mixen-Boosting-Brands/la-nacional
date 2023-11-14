@@ -160,7 +160,6 @@
       // height: 80vh;
 
       .row-padre {
-  
         & > div:first-child {
           height: 60vh;
         }
@@ -181,6 +180,21 @@
 
         strong {
           font-size: 5rem;
+        }
+      }
+
+      .circle {
+        img {
+          min-width: 276px;
+          left: 0;
+        }
+      }
+
+      .square {
+        img {
+          min-width: 190px;
+          top: -100px;
+          left: 0;
         }
       }
     }
