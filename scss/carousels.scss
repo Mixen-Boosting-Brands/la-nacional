@@ -76,6 +76,7 @@
     .square {
       img {
         min-width: 116px;
+        top: -36px;
         left: -36px;
       }
     }
@@ -97,7 +98,24 @@
 
 // Small devices (landscape phones, 576px and up)
 @include media-breakpoint-up(sm) {
-
+  .swiper-jumbotron {
+    .slide {
+      .circle {
+        img {
+          min-width: 150px;
+          left: 0;
+        }
+      }
+  
+      .square {
+        img {
+          min-width: 116px;
+          top: -36px;
+          left: -36px;
+        }
+      }
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
