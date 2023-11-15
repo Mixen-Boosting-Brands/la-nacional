@@ -199,7 +199,14 @@
                                         <div class="col-lg-8 justify-content-center align-items-center text-center">
                                             <div class="row circle">
                                                 <div class="col-4 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid z-4" id="circle-1">
+                                                    <img
+                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png"
+                                                        alt=""
+                                                        class="img-fluid z-4"
+                                                        id="circle-1"
+                                                        data-aos="fade-left"
+                                                        data-aos-id="super-duper"
+                                                    >
                                                 </div>
                                                 <div class="col-4 my-lg-auto">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png" alt="" class="img-fluid z-5" id="circle-2">
