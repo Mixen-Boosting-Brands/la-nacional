@@ -156,7 +156,7 @@
 	<?php wp_footer(); ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/0aa7289868941951db15.app.bundle.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/70d290b33352b33f2f64.app.bundle.js"></script>
 
 	<script>
         $("#modal-video").on('hidden.bs.modal', function (e) {

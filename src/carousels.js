@@ -26,5 +26,12 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
     pagination: {
       el: '.swiper-pagination',
       clickable: true
-    }
+    },
+
+    // Events
+    on: {
+      init: function () {
+        console.log('swiper initialized');
+      },
+    },
 });
