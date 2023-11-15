@@ -205,7 +205,23 @@
 // X-Large devices (large desktops, 1200px and up)
 @include media-breakpoint-up(xl) {
   .swiper-jumbotron {
+    height: 70vh;
+
     .slide {
+      height: 70vh;
+
+      .row-padre {
+        min-height: 70vh !important;
+  
+        & > div:first-child {
+          height: 35vh;
+        }
+  
+        & > div:last-child {
+          height: 35vh;
+        }
+      }
+
       .circle {        
         img {
           min-width: 196px;
