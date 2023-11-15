@@ -190,7 +190,37 @@
 
 // X-Large devices (large desktops, 1200px and up)
 @include media-breakpoint-up(xl) {
-  
+  .swiper-jumbotron {
+    .slide {
+      .circle {        
+        img {
+          min-width: 196px;
+          top: 132px;
+          left: 0;
+        }
+
+        #circle-1 {
+          left: 84px;
+        }
+
+        #circle-2 {
+          
+        }
+
+        #circle-3 {
+          left: -84px;
+        }
+      }
+
+      .square {
+        img {
+          min-width: 156px;
+          top: -110px;
+          left: -35px;
+        }
+      }
+    }
+  }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
