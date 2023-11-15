@@ -262,6 +262,8 @@
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-7.png"
                                                         alt=""
                                                         class="img-fluid z-7"
+                                                        data-aos="fade-left"
+                                                        data-aos-delay="1750"
                                                     >
                                                 </div>
                                                 <div class="col-2 my-lg-auto">
@@ -270,7 +272,7 @@
                                                         alt=""
                                                         class="img-fluid z-6"
                                                         data-aos="fade-left"
-                                                        data-aos-delay="1750"
+                                                        data-aos-delay="2000"
                                                     >
                                                 </div>
                                             </div>
