@@ -203,13 +203,13 @@
                                         <div class="col-lg-8 justify-content-center align-items-center text-center">
                                             <div class="row circle">
                                                 <div class="col-4 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid z-4">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid z-4" id="circle-1">
                                                 </div>
                                                 <div class="col-4 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png" alt="" class="img-fluid z-5">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png" alt="" class="img-fluid z-5" id="circle-2">
                                                 </div>
                                                 <div class="col-4 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png" alt="" class="img-fluid z-3">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png" alt="" class="img-fluid z-3" id="circle-3">
                                                 </div>
                                             </div>
                                             <div class="row square">

@@ -157,11 +157,23 @@
         }
       }
 
-      .circle {
+      .circle {        
         img {
-          min-width: 276px;
+          min-width: 196px;
           top: 132px;
           left: 0;
+        }
+
+        #circle-1 {
+          left: 0;
+        }
+
+        #circle-2 {
+          
+        }
+
+        #circle-3 {
+          right: 0;
         }
       }
 
