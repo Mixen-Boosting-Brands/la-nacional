@@ -243,7 +243,7 @@
                                                     <img
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png"
                                                         alt=""
-                                                        class="img-fluid z-4"
+                                                        class="img-fluid z-2"
                                                         id="circle-1"
                                                         data-aos="fade-left"
                                                         data-aos-delay="250"
@@ -253,7 +253,7 @@
                                                 <img
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png"
                                                         alt=""
-                                                        class="img-fluid z-4"
+                                                        class="img-fluid z-3"
                                                         id="circle-2"
                                                         data-aos="fade-left"
                                                         data-aos-delay="500"
@@ -263,7 +263,7 @@
                                                 <img
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png"
                                                         alt=""
-                                                        class="img-fluid z-4"
+                                                        class="img-fluid z-1"
                                                         id="circle-3"
                                                         data-aos="fade-left"
                                                         data-aos-delay="750"
@@ -272,19 +272,19 @@
                                             </div>
                                             <div class="row square">
                                                 <div class="col-2 offset-1 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png" alt="" class="img-fluid z-10">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png" alt="" class="img-fluid z-8">
                                                 </div>
                                                 <div class="col-2 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-5.png" alt="" class="img-fluid z-9">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-5.png" alt="" class="img-fluid z-7">
                                                 </div>
                                                 <div class="col-2 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-6.png" alt="" class="img-fluid z-8">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-6.png" alt="" class="img-fluid z-6">
                                                 </div>
                                                 <div class="col-2 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-7.png" alt="" class="img-fluid z-7">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-7.png" alt="" class="img-fluid z-5">
                                                 </div>
                                                 <div class="col-2 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-8.png" alt="" class="img-fluid z-6">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-8.png" alt="" class="img-fluid z-4">
                                                 </div>
                                             </div>
                                         </div>
