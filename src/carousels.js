@@ -36,15 +36,15 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
 
         const circle1 = document.getElementById('circle-1');
         circle1.style.display = 'none';
-        circle1.classList.remove("aos-init", "aos-animate");
+        circle1.classList.remove("aos-init", "aos-animate", "data-aos-delay");
 
         const circle2 = document.getElementById('circle-2');
         circle2.style.display = 'none';
-        circle2.classList.remove("aos-init", "aos-animate");
+        circle2.classList.remove("aos-init", "aos-animate", "data-aos-delay");
 
         const circle3 = document.getElementById('circle-3');
         circle3.style.display = 'none';
-        circle3.classList.remove("aos-init", "aos-animate");
+        circle3.classList.remove("aos-init", "aos-animate", "data-aos-delay");
       },
       slideChangeTransitionEnd: function () {
         const circle1 = document.getElementById('circle-1');
@@ -55,7 +55,7 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
 
         const circle3 = document.getElementById('circle-3');
         circle3.style.display = 'block';
-        
+
         AOSwiper.init();
       },
     },

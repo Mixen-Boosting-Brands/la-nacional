@@ -246,6 +246,7 @@
                                                         class="img-fluid z-4"
                                                         id="circle-1"
                                                         data-aos="fade-left"
+                                                        data-aos-delay="250"
                                                     >
                                                 </div>
                                                 <div class="col-4 my-lg-auto">
@@ -255,6 +256,7 @@
                                                         class="img-fluid z-4"
                                                         id="circle-2"
                                                         data-aos="fade-left"
+                                                        data-aos-delay="500"
                                                     >
                                                 </div>
                                                 <div class="col-4 my-lg-auto">
@@ -264,6 +266,7 @@
                                                         class="img-fluid z-4"
                                                         id="circle-3"
                                                         data-aos="fade-left"
+                                                        data-aos-delay="750"
                                                     >
                                                 </div>
                                             </div>
