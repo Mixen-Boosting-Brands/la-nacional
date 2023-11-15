@@ -22,22 +22,22 @@ if (modal) {
 
         if (gramajesData) {
             // Extract the content from the span tags
-            var spanContents = gramajesData.match(/<span>(.*?)<\/span>/g);
+            let spanContents = gramajesData.match(/<span>(.*?)<\/span>/g);
         
             // Parse the JSON content for each span
-            var gramajesArray = spanContents.map(function (spanContent) {
+            let gramajesArray = spanContents.map(function (spanContent) {
                 return JSON.parse('"' + spanContent.replace(/<\/?span>/g, '') + '"');
             });
             
             // Accumulate the values in an array of span tags
-            var gramajesTextArray = gramajesArray.map(function (gramaje) {
+            let gramajesTextArray = gramajesArray.map(function (gramaje) {
                 // Process each gramaje as needed
                 console.log(gramaje);
                 return '<span>' + gramaje + '</span>';
             });
 
             // Join the accumulated values into a single string
-            var gramajesText = gramajesTextArray.join(' ');
+            let gramajesText = gramajesTextArray.join(' ');
 
             // Set the joined values as HTML using innerHTML
             modalGramaje.innerHTML = gramajesText;
