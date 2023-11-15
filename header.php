@@ -177,7 +177,6 @@
                     <div class="swipers swiper-jumbotron">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
-						<?php for($i = 1; $i <= 1; $i++): if( have_rows('slide_' . $i, 2) ): while( have_rows('slide_' . $i, 2) ): the_row(); ?>
                             <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="slide slide-<?php echo $i; ?>">
@@ -187,7 +186,7 @@
                                                 <h1
                                                     data-aos="fade-right"
                                                 >
-                                                    <?php echo get_sub_field('texto_renglon_1'); ?><br>
+                                                    <?php bloginfo( 'name' ); ?><br>
                                                     <!-- strong>
                                                         php echo get_sub_field('texto_renglon_2');
                                                     </strong -->
@@ -196,7 +195,7 @@
                                                     class="fondo-blanco"
                                                     data-aos="fade-left"
                                                 >
-                                                    <?php echo get_sub_field('texto_renglon_3'); ?>
+                                                    Más de 40 años de tradición
                                                 </p>
                                             </div>
                                         </div>
@@ -233,7 +232,60 @@
                                     </div>
                                 </div>
                             </div>
-						<?php endwhile; endif; endfor; ?>
+                            <div class="swiper-slide">
+                                <div class="slide slide-<?php echo $i; ?>">
+                                    <div class="row row-padre">
+                                        <div class="col-lg-3 offset-lg-1 d-flex justify-content-center align-items-center">
+                                        <div>
+                                                <h1
+                                                    data-aos="fade-right"
+                                                >
+                                                    <?php bloginfo( 'name' ); ?><br>
+                                                    <!-- strong>
+                                                        php echo get_sub_field('texto_renglon_2');
+                                                    </strong -->
+                                                </h1>
+                                                <p
+                                                    class="fondo-blanco"
+                                                    data-aos="fade-left"
+                                                >
+                                                    Más de 40 años de tradición
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 justify-content-center align-items-center text-center">
+                                            <div class="row circle">
+                                                <div class="col-4 my-lg-auto">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png" alt="" class="img-fluid z-4" id="circle-1">
+                                                </div>
+                                                <div class="col-4 my-lg-auto">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png" alt="" class="img-fluid z-5" id="circle-2">
+                                                </div>
+                                                <div class="col-4 my-lg-auto">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png" alt="" class="img-fluid z-3" id="circle-3">
+                                                </div>
+                                            </div>
+                                            <div class="row square">
+                                                <div class="col-2 offset-1 my-lg-auto">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png" alt="" class="img-fluid z-10">
+                                                </div>
+                                                <div class="col-2 my-lg-auto">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-5.png" alt="" class="img-fluid z-9">
+                                                </div>
+                                                <div class="col-2 my-lg-auto">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-6.png" alt="" class="img-fluid z-8">
+                                                </div>
+                                                <div class="col-2 my-lg-auto">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-7.png" alt="" class="img-fluid z-7">
+                                                </div>
+                                                <div class="col-2 my-lg-auto">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-8.png" alt="" class="img-fluid z-6">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
