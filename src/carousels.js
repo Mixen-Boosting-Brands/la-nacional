@@ -32,6 +32,10 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
     on: {
       init: function () {
         console.log('swiper initialized');
+
+        document.addEventListener('aos:in:super-duper', ({ detail }) => {
+          console.log('animated in', detail);
+        });
       },
     },
 });
