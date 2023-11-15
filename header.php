@@ -187,9 +187,6 @@
                                                     data-aos="fade-right"
                                                 >
                                                     <?php bloginfo( 'name' ); ?><br>
-                                                    <!-- strong>
-                                                        php echo get_sub_field('texto_renglon_2');
-                                                    </strong -->
                                                 </h1>
                                                 <p
                                                     class="fondo-blanco"
@@ -241,9 +238,6 @@
                                                     data-aos="fade-right"
                                                 >
                                                     <?php bloginfo( 'name' ); ?><br>
-                                                    <!-- strong>
-                                                        php echo get_sub_field('texto_renglon_2');
-                                                    </strong -->
                                                 </h1>
                                                 <p
                                                     class="fondo-blanco"
