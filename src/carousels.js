@@ -30,20 +30,23 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
 
     // Events
     on: {
-      reachEnd: function () {
+      slideChangeTransitionStart: function () {
         console.log('swiper initialized');
 
         const circle1 = document.getElementById('circle-1');
+        circle1.style.display = 'block';
         circle1.classList.add("aos-animate");
         circle1.setAttribute('data-aos','fade-left');
         circle1.setAttribute('data-aos-delay','250');
 
         const circle2 = document.getElementById('circle-2');
+        circle2.style.display = 'block';
         circle2.classList.add("aos-animate");
         circle2.setAttribute('data-aos','fade-left');
         circle2.setAttribute('data-aos-delay','500');
 
         const circle3 = document.getElementById('circle-3');
+        circle3.style.display = 'block';
         circle3.classList.add("aos-animate");
         circle3.setAttribute('data-aos','fade-left');
         circle3.setAttribute('data-aos-delay','750');
