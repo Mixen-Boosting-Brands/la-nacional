@@ -235,6 +235,7 @@
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png"
                                                         alt=""
                                                         class="img-fluid z-10"
+                                                        id="square-1"
                                                         data-aos="fade-left"
                                                         data-aos-delay="1000"
                                                     >
@@ -244,6 +245,7 @@
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-5.png"
                                                         alt=""
                                                         class="img-fluid z-9"
+                                                        id="square-2"
                                                         data-aos="fade-left"
                                                         data-aos-delay="1250"
                                                     >
@@ -253,6 +255,7 @@
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-6.png"
                                                         alt=""
                                                         class="img-fluid z-8"
+                                                        id="square-3"
                                                         data-aos="fade-left"
                                                         data-aos-delay="1500"
                                                     >
@@ -262,6 +265,7 @@
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-7.png"
                                                         alt=""
                                                         class="img-fluid z-7"
+                                                        id="square-4"
                                                         data-aos="fade-left"
                                                         data-aos-delay="1750"
                                                     >
@@ -271,6 +275,7 @@
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-8.png"
                                                         alt=""
                                                         class="img-fluid z-6"
+                                                        id="square-5"
                                                         data-aos="fade-left"
                                                         data-aos-delay="2000"
                                                     >
