@@ -112,15 +112,28 @@
     .slide {
       .circle {
         img {
-          min-width: 276px;
-          left: -22px;
+          min-width: 244px;
+          left: 0px;
+          top: -72px;
+        }
+
+        #circle-1 {
+          left: 84px;
+        }
+
+        #circle-2 {
+          
+        }
+
+        #circle-3 {
+          left: -84px;
         }
       }
 
       .square {
         img {
           min-width: 190px;
-          top: -100px;
+          top: -160px;
           left: -44px;
         }
       }
