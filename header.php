@@ -205,14 +205,25 @@
                                                         class="img-fluid z-4"
                                                         id="circle-1"
                                                         data-aos="fade-left"
-                                                        data-aos-id="super-duper"
                                                     >
                                                 </div>
                                                 <div class="col-4 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png" alt="" class="img-fluid z-5" id="circle-2">
+                                                <img
+                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png"
+                                                        alt=""
+                                                        class="img-fluid z-4"
+                                                        id="circle-2"
+                                                        data-aos="fade-left"
+                                                    >
                                                 </div>
                                                 <div class="col-4 my-lg-auto">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png" alt="" class="img-fluid z-3" id="circle-3">
+                                                <img
+                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png"
+                                                        alt=""
+                                                        class="img-fluid z-4"
+                                                        id="circle-3"
+                                                        data-aos="fade-left"
+                                                    >
                                                 </div>
                                             </div>
                                             <div class="row square">

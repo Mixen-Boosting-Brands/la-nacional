@@ -30,12 +30,11 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
 
     // Events
     on: {
-      init: function () {
+      activeIndexChange: function () {
         console.log('swiper initialized');
 
-        document.addEventListener('aos:in:super-duper', ({ detail }) => {
-          console.log('animated in', detail);
-        });
+        const circle1 = document.getElementById('circle-1');
+        circle1.setAttribute('data-aos-delay','250');
       },
     },
 });
