@@ -211,14 +211,16 @@
       height: 70vh;
 
       .row-padre {
-        min-height: 70vh !important;
-  
         & > div:first-child {
-          height: 35vh;
+          height: 70vh;
         }
   
         & > div:last-child {
-          height: 35vh;
+          height: 70vh;
+
+          .row {
+            height: 35vh;
+          }
         }
       }
 
