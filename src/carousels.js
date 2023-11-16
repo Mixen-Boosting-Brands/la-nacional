@@ -10,18 +10,12 @@ import 'swiper/css/pagination';
 // init Swiper:
 const swiperJumbotron = new Swiper('.swiper-jumbotron', {
     // configure Swiper to use modules
-    modules: [Navigation, Pagination, Autoplay],
+    modules: [Navigation, Pagination],
 
     // Optional parameters
     direction: 'horizontal',
     loop: true,
     mousewheel: true,
-
-    // Autoplay
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
   
     // If we need pagination
     pagination: {
