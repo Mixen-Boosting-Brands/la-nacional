@@ -64,6 +64,7 @@ const swiperEncuentranosTop = new Swiper('.swiper-encuentranos-top', {
   // Optional parameters
   spaceBetween: 30,
   slidesPerView: 3,
+  slidesPerGroup: 3,
   autoplay: {
       delay: 2500,
       disableOnInteraction: false,
@@ -77,6 +78,7 @@ const swiperEncuentranosBottom = new Swiper('.swiper-encuentranos-bottom', {
   // Optional parameters
   spaceBetween: 30,
   slidesPerView: 3,
+  slidesPerGroup: 3,
   autoplay: {
       delay: 2500,
       disableOnInteraction: false,

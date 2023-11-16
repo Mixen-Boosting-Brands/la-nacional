@@ -156,6 +156,7 @@
                                     <div class="swiper-slide">Slide 6</div>
                                     <div class="swiper-slide">Slide 7</div>
                                     <div class="swiper-slide">Slide 8</div>
+                                    <div class="swiper-slide">Slide 9</div>
                                 </div>
 
                                 <!-- If we need scrollbar -->
@@ -178,6 +179,7 @@
                                     <div class="swiper-slide">Slide 6</div>
                                     <div class="swiper-slide">Slide 7</div>
                                     <div class="swiper-slide">Slide 8</div>
+                                    <div class="swiper-slide">Slide 9</div>
                                 </div>
 
                                 <!-- If we need scrollbar -->
