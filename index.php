@@ -148,15 +148,33 @@
                                 <!-- Additional required wrapper -->
                                 <div class="swiper-wrapper">
                                     <!-- Slides -->
-                                    <div class="swiper-slide">Slide 1</div>
-                                    <div class="swiper-slide">Slide 2</div>
-                                    <div class="swiper-slide">Slide 3</div>
-                                    <div class="swiper-slide">Slide 4</div>
-                                    <div class="swiper-slide">Slide 5</div>
-                                    <div class="swiper-slide">Slide 6</div>
-                                    <div class="swiper-slide">Slide 7</div>
-                                    <div class="swiper-slide">Slide 8</div>
-                                    <div class="swiper-slide">Slide 9</div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/top/1.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/top/2.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/top/3.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/top/4.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/top/1.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/top/2.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/top/3.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/top/4.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/top/1.png" alt="" class="img-fluid">
+                                    </div>
                                 </div>
 
                                 <!-- If we need scrollbar -->
@@ -171,15 +189,34 @@
                                 <!-- Additional required wrapper -->
                                 <div class="swiper-wrapper">
                                     <!-- Slides -->
-                                    <div class="swiper-slide">Slide 1</div>
-                                    <div class="swiper-slide">Slide 2</div>
-                                    <div class="swiper-slide">Slide 3</div>
-                                    <div class="swiper-slide">Slide 4</div>
-                                    <div class="swiper-slide">Slide 5</div>
-                                    <div class="swiper-slide">Slide 6</div>
-                                    <div class="swiper-slide">Slide 7</div>
-                                    <div class="swiper-slide">Slide 8</div>
-                                    <div class="swiper-slide">Slide 9</div>
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/bottom/1.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/bottom/2.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/bottom/3.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/bottom/4.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/bottom/1.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/bottom/2.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/bottom/3.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/bottom/4.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/images/slider-encuentranos/bottom/1.png" alt="" class="img-fluid">
+                                    </div>
                                 </div>
 
                                 <!-- If we need scrollbar -->
