@@ -78,7 +78,7 @@
         </div>
     </section>
 
-    <section id="nuestros-productos" class="pt-100 pb-30">
+    <section id="nuestros-productos" class="pt-100 pb-50">
         <div class="container">
             <div class="row mb-4">
                 <div class="col text-center">
@@ -123,7 +123,7 @@
         </div>
     </section>
 
-    <section id="encuentranos" class="pt-30 pb-100">
+    <section id="encuentranos" class="pt-50 pb-100">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-4 my-auto text-center">
