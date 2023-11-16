@@ -83,15 +83,22 @@
 
     .milks {
       img {
-        min-width: 150px;
+        min-width: 74px;
+      }
+
+      #milk-1,
+      #milk-2 {
+        left: 0;
       }
 
       #milk-1 {
-        min-width: 150px;
+        min-width: 140px;
+        top: -44px;
       }
 
       #milk-2 {
-        min-width: 150px;
+        min-width: 115px;
+        top: -20px;
       }
     }
   }
