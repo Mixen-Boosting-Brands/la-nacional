@@ -141,7 +141,23 @@
                     </p>
                 </div>
                 <div class="col-lg-8 my-auto text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Slider main container -->
+                            <div class="swiper swiper-encuentranos-top">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">Slide 1</div>
+                                    <div class="swiper-slide">Slide 2</div>
+                                    <div class="swiper-slide">Slide 3</div>
+                                </div>
 
+                                <!-- If we need scrollbar -->
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
