@@ -66,7 +66,6 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
 const swiperEncuentranos = new Swiper('.swiper-encuentranos-top', {
   // Optional parameters
   spaceBetween: 30,
-  direction: 'horizontal',
   slidesPerView: 3,
   autoplay: {
       delay: 2500,
