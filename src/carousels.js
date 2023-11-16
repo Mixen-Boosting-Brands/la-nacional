@@ -57,7 +57,7 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
     },
 });
 
-const swiperEncuentranos = new Swiper('.swiper-encuentranos-top', {
+const swiperEncuentranosTop = new Swiper('.swiper-encuentranos-top', {
   // configure Swiper to use modules
   modules: [Autoplay],
 
@@ -67,5 +67,19 @@ const swiperEncuentranos = new Swiper('.swiper-encuentranos-top', {
   autoplay: {
       delay: 2500,
       disableOnInteraction: false,
+  },
+});
+
+const swiperEncuentranosBottom = new Swiper('.swiper-encuentranos-bottom', {
+  // configure Swiper to use modules
+  modules: [Autoplay],
+
+  // Optional parameters
+  spaceBetween: 30,
+  slidesPerView: 3,
+  autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+      reverseDirection: true,
   },
 });

@@ -163,6 +163,28 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Slider main container -->
+                            <div class="swiper swiper-encuentranos-bottom">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">Slide 1</div>
+                                    <div class="swiper-slide">Slide 2</div>
+                                    <div class="swiper-slide">Slide 3</div>
+                                    <div class="swiper-slide">Slide 4</div>
+                                    <div class="swiper-slide">Slide 5</div>
+                                    <div class="swiper-slide">Slide 6</div>
+                                    <div class="swiper-slide">Slide 7</div>
+                                    <div class="swiper-slide">Slide 8</div>
+                                </div>
+
+                                <!-- If we need scrollbar -->
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
