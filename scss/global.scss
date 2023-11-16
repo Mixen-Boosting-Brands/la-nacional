@@ -178,6 +178,10 @@ header {
             color: $text-secondary;
         }
     }
+
+    .list-inline-item:not(:last-child) {
+        margin-right: 1.4rem;
+    }
 }
 
 .navbar-scroll {
