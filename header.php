@@ -178,7 +178,7 @@
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
-                            <div class="swiper-slide overflow-hidden">
+                            <div class="swiper-slide">
                                 <div class="slide">
                                     <div class="row row-padre">
                                         <div class="col-lg-3 offset-lg-1 d-flex justify-content-center align-items-center">
@@ -285,7 +285,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide overflow-hidden">
+                            <div class="swiper-slide">
                                 <div class="slide">
                                     <div class="row row-padre">
                                         <div class="col-lg-3 offset-lg-1 d-flex justify-content-center align-items-center">
