@@ -409,6 +409,45 @@ $slide: ".swiper-slide";
           left: -32px;
         }
       }
+
+      .milks {
+        img {
+          min-width: 112px;
+          top: 0;
+          left: -18px;
+        }
+  
+        #milk-1,
+        #milk-2 {
+          left: 45px;
+        }
+  
+        #milk-1 {
+          min-width: 174px;
+          top: 0;
+        }
+  
+        #milk-2 {
+          min-width: 200px;
+          top: 0;
+        }
+
+        #milk-3 {
+          left: 80px;
+        }
+
+        #milk-4 {
+          left: 40px;
+        }
+
+        #milk-5 {
+          left: 0;
+        }
+
+        #milk-6 {
+          left: -40px;
+        }
+      }
     }
   }
 }
