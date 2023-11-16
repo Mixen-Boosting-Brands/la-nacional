@@ -82,7 +82,9 @@
     }
 
     .milks {
-      min-width: 150px;
+      img {
+        min-width: 150px;
+      }
     }
   }
 }
