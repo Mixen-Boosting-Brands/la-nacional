@@ -1,6 +1,6 @@
 // core version + navigation, pagination modules:
 import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import AOSwiper from 'aos';
 
 // import Swiper and modules styles
@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 // init Swiper:
 const swiperJumbotron = new Swiper('.swiper-jumbotron', {
     // configure Swiper to use modules
-    modules: [Navigation, Pagination],
+    modules: [Navigation, Pagination, Autoplay],
 
     // Optional parameters
     direction: 'horizontal',
@@ -64,6 +64,9 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
 });
 
 const swiperEncuentranos = new Swiper('.swiper-encuentranos-top', {
+  // configure Swiper to use modules
+  modules: [Autoplay],
+
   // Optional parameters
   spaceBetween: 30,
   slidesPerView: 3,
