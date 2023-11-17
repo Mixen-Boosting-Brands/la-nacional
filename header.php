@@ -206,7 +206,7 @@
                                 <div class="slide">
                                     <div class="row row-padre">
                                         <div class="col-lg-3 offset-lg-1 d-flex justify-content-center align-items-center">
-                                        <div>
+                                            <div>
                                                 <h1
                                                     data-aos="fade-right"
                                                 >
@@ -221,7 +221,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-8 justify-content-center align-items-center text-center">
-                                        <div class="row milks">
+                                            <div class="row milks">
                                                 <div class="col-2 my-lg-auto">
                                                     <img
                                                         src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-2/j-1.png"
