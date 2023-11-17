@@ -220,69 +220,8 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8 justify-content-center align-items-center text-center">
-                                            <div class="row milks">
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-2/j-1.png"
-                                                        alt=""
-                                                        class="img-fluid z-5"
-                                                        id="milk-1"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="250"
-                                                    >
-                                                </div>
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-2/j-2.png"
-                                                        alt=""
-                                                        class="img-fluid z-6"
-                                                        id="milk-2"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="500"
-                                                    >
-                                                </div>
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-2/j-3.png"
-                                                        alt=""
-                                                        class="img-fluid z-1"
-                                                        id="milk-3"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="750"
-                                                    >
-                                                </div>
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-2/j-4.png"
-                                                        alt=""
-                                                        class="img-fluid z-4"
-                                                        id="milk-4"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="1000"
-                                                    >
-                                                </div>
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-2/j-5.png"
-                                                        alt=""
-                                                        class="img-fluid z-3"
-                                                        id="milk-5"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="1250"
-                                                    >
-                                                </div>
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-2/j-6.png"
-                                                        alt=""
-                                                        class="img-fluid z-2"
-                                                        id="milk-6"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="1500"
-                                                    >
-                                                </div>
-                                            </div>
+                                        <div class="col-lg-8 d-flex justify-content-center align-items-center text-center">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-2/slide-2.gif" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
