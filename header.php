@@ -196,7 +196,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8 justify-content-center align-items-center text-center">
+                                        <div class="col-lg-8 d-flex justify-content-center align-items-center text-center">
                                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/slide-1.gif" alt="" class="img-fluid">
                                         </div>
                                     </div>
