@@ -179,7 +179,28 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/slide-1.gif" alt="" class="img-fluid">
+                                <div class="slide">
+                                    <div class="row row-padre">
+                                        <div class="col-lg-3 offset-lg-1 d-flex justify-content-center align-items-center">
+                                            <div>
+                                                <h1
+                                                    data-aos="fade-right"
+                                                >
+                                                    <?php bloginfo( 'name' ); ?><br>
+                                                </h1>
+                                                <p
+                                                    class="fondo-blanco"
+                                                    data-aos="fade-left"
+                                                >
+                                                    Más de 40 años de tradición
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 justify-content-center align-items-center text-center">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/slide-1.gif" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="slide">
