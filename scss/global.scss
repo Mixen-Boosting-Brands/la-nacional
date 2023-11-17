@@ -315,7 +315,6 @@ header {
     @include background('../images/bg-jumbotron.jpg', center, cover);
 
     .video-container {
-        @include background('../images/bg-video-container.jpg', center, cover);
         width: 100%;
         height: 100vh;
         overflow: hidden;
