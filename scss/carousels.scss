@@ -181,7 +181,23 @@ $slide: ".swiper-slide";
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
   .swiper-jumbotron {
+    height: 80vh;
+
     .slide {
+      height: 80vh;
+
+      .row-padre {
+        min-height: 60vh !important;
+  
+        & > div:first-child {
+          height: 30vh;
+        }
+  
+        & > div:last-child {
+          height: 50vh;
+        }
+      }
+
       .circle {
         img {
           min-width: 244px;
