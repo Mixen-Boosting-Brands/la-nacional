@@ -255,16 +255,19 @@ $slide: ".swiper-slide";
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
   .swiper-jumbotron {
+    height: 80vh;
+
     .slide {
       background-position: center !important;
+      height: 80vh;
 
       .row-padre {
         & > div:first-child {
-          height: 60vh;
+          height: 80vh;
         }
   
         & > div:last-child {
-          height: 60vh;
+          height: 80vh;
 
           .row {
             // height: 30vh;
@@ -359,21 +362,21 @@ $slide: ".swiper-slide";
 // X-Large devices (large desktops, 1200px and up)
 @include media-breakpoint-up(xl) {
   .swiper-jumbotron {
-    height: 70vh;
+    height: 80vh;
 
     .slide {
-      height: 70vh;
+      height: 80vh;
 
       .row-padre {
         & > div:first-child {
-          height: 70vh;
+          height: 80vh;
         }
   
         & > div:last-child {
-          height: 70vh;
+          height: 80vh;
 
           .row {
-            height: 35vh;
+            // height: 35vh;
           }
         }
 
