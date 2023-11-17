@@ -108,15 +108,6 @@
             font-size: 0.8rem;
         }
     }
-
-    &::after {
-        position: absolute;
-        bottom: -40px;
-        @include absolute-center-x;
-        content: '';
-        background-color: $primary;
-        width: 3px;
-    }
 }
 
 .menu-abierto {
@@ -124,6 +115,20 @@
     opacity: 1;
     z-index: 9999;
 }
+
+@include media-breakpoint-up(md) {
+    .menu {
+        &::after {
+            position: absolute;
+            bottom: -40px;
+            @include absolute-center-x;
+            content: '';
+            background-color: $primary;
+            width: 3px;
+        }
+    }
+}
+
 @media only screen and (max-width : 900px){
     .menu-abierto{
         height: 100vh !important;
