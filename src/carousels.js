@@ -49,7 +49,7 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
     
         elements.forEach(elementId => {
             const element = document.getElementById(elementId);
-            element.style.display = 'block';
+            // element.style.display = 'block';
         });
 
         AOSwiper.init();
