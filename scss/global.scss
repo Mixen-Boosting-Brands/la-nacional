@@ -313,6 +313,7 @@ header {
  /* Para editar estilos del carrusel de esta sección, favor de ver archivo carousels.scss */
 #jumbotron {
     @include background('../images/bg-jumbotron.jpg', center, cover);
+    overflow: hidden;
 }
 
 #nosotros {
