@@ -378,18 +378,18 @@ $slide: ".swiper-slide";
 // X-Large devices (large desktops, 1200px and up)
 @include media-breakpoint-up(xl) {
   .swiper-jumbotron {
-    height: 85vh;
+    height: 90vh;
 
     .slide {
-      height: 85vh;
+      height: 80vh;
 
       .row-padre {
         & > div:first-child {
-          height: 85vh;
+          height: 80vh;
         }
   
         & > div:last-child {
-          height: 85vh;
+          height: 80vh;
 
           .row {
             // height: 35vh;
