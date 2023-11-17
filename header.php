@@ -179,109 +179,17 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <div class="slide">
-                                    <div class="row row-padre">
-                                        <div class="col-lg-3 offset-lg-1 d-flex justify-content-center align-items-center">
-                                            <div>
-                                                <h1
-                                                    data-aos="fade-right"
-                                                >
-                                                    <?php bloginfo( 'name' ); ?><br>
-                                                </h1>
-                                                <p
-                                                    class="fondo-blanco"
-                                                    data-aos="fade-left"
-                                                >
-                                                    Más de 40 años de tradición
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8 justify-content-center align-items-center text-center">
-                                            <div class="row circle">
-                                                <div class="col-4 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-1.png"
-                                                        alt=""
-                                                        class="img-fluid z-2"
-                                                        id="circle-1"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="250"
-                                                    >
-                                                </div>
-                                                <div class="col-4 my-lg-auto">
-                                                <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-2.png"
-                                                        alt=""
-                                                        class="img-fluid z-3"
-                                                        id="circle-2"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="500"
-                                                    >
-                                                </div>
-                                                <div class="col-4 my-lg-auto">
-                                                <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-3.png"
-                                                        alt=""
-                                                        class="img-fluid z-1"
-                                                        id="circle-3"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="750"
-                                                    >
-                                                </div>
-                                            </div>
-                                            <div class="row square">
-                                                <div class="col-2 offset-1 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-4.png"
-                                                        alt=""
-                                                        class="img-fluid z-10"
-                                                        id="square-1"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="1000"
-                                                    >
-                                                </div>
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-5.png"
-                                                        alt=""
-                                                        class="img-fluid z-9"
-                                                        id="square-2"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="1250"
-                                                    >
-                                                </div>
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-6.png"
-                                                        alt=""
-                                                        class="img-fluid z-8"
-                                                        id="square-3"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="1500"
-                                                    >
-                                                </div>
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-7.png"
-                                                        alt=""
-                                                        class="img-fluid z-7"
-                                                        id="square-4"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="1750"
-                                                    >
-                                                </div>
-                                                <div class="col-2 my-lg-auto">
-                                                    <img
-                                                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/slide-1/j-8.png"
-                                                        alt=""
-                                                        class="img-fluid z-6"
-                                                        id="square-5"
-                                                        data-aos="fade-left"
-                                                        data-aos-delay="2000"
-                                                    >
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div
+                                    class="video-container"
+                                    data-aos="zoom-in"
+                                    data-aos-delay="250"
+                                >
+                                    <video class="object-fit-contain" autoplay muted loop>
+                                        <source src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/videos/jumbotron-1.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="overlay">
+                                        <!-- h1>Esto es <?php bloginfo( 'name' ); ?></h1 -->
                                     </div>
                                 </div>
                             </div>
