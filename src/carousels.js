@@ -30,7 +30,8 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
         videoLeches.play();
       },
       slideChangeTransitionEnd: function () {
-        
+        const videoQuesos = document.getElementById('video-quesos');
+        videoQuesos.play();
       },
     },
 });
