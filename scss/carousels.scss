@@ -1,31 +1,3 @@
-/* START: Hack para ocultar slides no activos y solucionar el problema de que elementos se overfloween entre slides en resoluciones chicas */
-.swiper-container {
-  overflow: visible;
-}
-
-$slide: ".swiper-slide";
-
-.swiper-slide {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
-
-  &-active {
-    opacity: 1;
-    visibility: visible;
-
-    @for $i from 1 through 3 {
-      & + #{$slide} {
-        opacity: 1;
-        visibility: visible;
-      }
-
-      $slide: "#{$slide} + .swiper-slide";
-    }
-  }
-}
-/* END: Hack para ocultar slides no activos y solucionar el problema de que elementos se overfloween entre slides en resoluciones chicas */
-
 .swipers {
   .swiper-pagination {
     .swiper-pagination-bullet-active {
@@ -62,6 +34,17 @@ $slide: ".swiper-slide";
     height: 60vh;
     position: relative;
     float: left;
+
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -100;
+      object-fit: cover;
+      @include background('../images/bg-video-container.jpg', center, cover);
+    }
 
     .row-padre {
       min-height: 60vh !important;
