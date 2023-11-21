@@ -34,15 +34,17 @@
     // height: 60vh;
     position: relative;
     float: left;
+    overflow: hidden;
 
     video {
-      position: absolute;
-      top: 0;
-      left: 0;
       height: 100%;
-      width: 100%;
-      z-index: -100;
-      object-fit: cover;
+      width: 177.77777778vh; /* 100 * 16 / 9 */
+      min-width: 100%;
+      min-height: 56.25vw; /* 100 * 9 / 16 */
+      position: absolute;
+      left: 50%; /* % of surrounding element */
+      top: 50%;
+      transform: translate(-50%, -50%); /* % of current element */
       @include background('../images/bg-video-container.jpg', center, cover);
     }
 
