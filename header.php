@@ -176,7 +176,7 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
-                    <video id="video-quesos" class="object-fit-contain" muted>
+                    <video id="video-quesos" class="object-fit-contain" autoplay muted>
                         <source src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/videos/jumbotron-1.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
