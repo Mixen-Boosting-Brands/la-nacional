@@ -170,31 +170,25 @@
     </header>
 
 	<section id="jumbotron">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Slider main container -->
-                    <div class="swipers swiper-jumbotron">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                            <video class="object-fit-contain" autoplay muted loop>
-                                <source src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/videos/jumbotron-1.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            </div>
-                            <div class="swiper-slide">
-                                <video class="object-fit-contain" autoplay muted loop>
-                                    <source src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/videos/jumbotron-1.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                        </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-                    </div>
+        <!-- Slider main container -->
+        <div class="swipers swiper-jumbotron">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                <video class="object-fit-contain" autoplay muted loop>
+                    <source src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/videos/jumbotron-1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="swiper-slide">
+                    <video class="object-fit-contain" autoplay muted loop>
+                        <source src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/videos/jumbotron-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
         </div>
     </section>
