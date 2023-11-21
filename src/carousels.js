@@ -26,33 +26,11 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
     // Events
     on: {
       slideChangeTransitionStart: function () {
-        console.log('swiper initialized');
-
-        const elements = [
-          'circle-1', 'circle-2', 'circle-3',
-          'square-1', 'square-2', 'square-3', 'square-4', 'square-5',
-          'milk-1', 'milk-2', 'milk-3', 'milk-4', 'milk-5', 'milk-6'
-        ];
-    
-        elements.forEach(elementId => {
-            const element = document.getElementById(elementId);
-            element.style.display = 'none';
-            element.classList.remove("aos-init", "aos-animate", "data-aos-delay");
-        });
+        const videoLeches = document.getElementById('video-leches');
+        element.setAttribute("autoplay");
       },
       slideChangeTransitionEnd: function () {
-        const elements = [
-          'circle-1', 'circle-2', 'circle-3',
-          'square-1', 'square-2', 'square-3', 'square-4', 'square-5',
-          'milk-1', 'milk-2', 'milk-3', 'milk-4', 'milk-5', 'milk-6'
-        ];
-    
-        elements.forEach(elementId => {
-            const element = document.getElementById(elementId);
-            element.style.display = 'block';
-        });
-
-        AOSwiper.init();
+        
       },
     },
 });
