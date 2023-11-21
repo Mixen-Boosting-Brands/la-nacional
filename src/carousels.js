@@ -27,7 +27,7 @@ const swiperJumbotron = new Swiper('.swiper-jumbotron', {
     on: {
       slideChangeTransitionStart: function () {
         const videoLeches = document.getElementById('video-leches');
-        videoLeches.setAttribute("autoplay");
+        videoLeches.play();
       },
       slideChangeTransitionEnd: function () {
         
