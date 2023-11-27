@@ -15,8 +15,8 @@
                             data-aos="fade-up"
                             data-aos-delay="250"
                         >
-                            <a href="tel:+526566820414">
-                                <i class="fa-solid fa-phone"></i> +52 (656) 682 0414
+                            <a href="tel:+526146749595">
+                                <i class="fa-solid fa-phone"></i> +52 (614) 674 9595
                             </a>
                         </li>
                         <li
