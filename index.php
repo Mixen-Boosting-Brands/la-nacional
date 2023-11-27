@@ -97,7 +97,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-6 my-auto">
+                <div class="col-12 my-auto">
                     <a href="<?php echo get_category_link( 2 ); ?>#productos-header">
                         <img
                             src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-la-nacional.png"
@@ -108,7 +108,7 @@
                         >
                     </a>
                 </div>
-                <div class="col-6 my-auto">
+                <!-- div class="col-6 my-auto">
                     <a href="<?php echo get_category_link( 3 ); ?>#productos-header">
                         <img
                             src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-proti.png"
@@ -118,7 +118,7 @@
                             data-aos-delay="400"
                         >
                     </a>
-                </div>
+                </div -->
             </div>
         </div>
     </section>
