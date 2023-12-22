@@ -149,28 +149,34 @@
                                 <div class="swiper-wrapper">
                                     <!-- Slides -->
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/top/1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/1.png" alt="" class="img-fluid" loading="lazy">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/top/2.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/2.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/top/3.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/3.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/top/4.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/4.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/top/1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/5.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/top/2.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/6.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/top/3.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/7.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/top/4.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/8.png" alt="" class="img-fluid" loading="lazy">>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/9.png" alt="" class="img-fluid" loading="lazy">>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/10.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                 </div>
 
@@ -188,28 +194,34 @@
                                     <!-- Slides -->
                                     <!-- Slides -->
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/bottom/4.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/10.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/bottom/3.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/9.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/bottom/2.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/8.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/bottom/1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/7.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/bottom/4.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/6.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/bottom/3.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/5.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/bottom/2.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/4.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/bottom/1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/3.png" alt="" class="img-fluid" loading="lazy">>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/2.png" alt="" class="img-fluid" loading="lazy">>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider-encuentranos/1.png" alt="" class="img-fluid" loading="lazy">>
                                     </div>
                                 </div>
 
